@@ -1,0 +1,994 @@
+
+Aug 7 17:40:49 RuckusAP syslogd (inetutils 1.4.0): restart (remote reception)
+Aug 7 17:40:53 RuckusAP rsmd[98]: webserver ....... [stopped] (0.073)
+Aug 7 17:40:53 RuckusAP rsmd[98]: webserver: ref count 0 mon_level 2
+Aug 7 17:40:53 RuckusAP kernel: [ 107.411072] af_l (br0): version=1.0.0, build on 06:32:05 Jun 15 2023
+Aug 7 17:40:53 RuckusAP kernel: [ 107.411104] NET: Registered protocol family 42
+Aug 7 17:40:53 RuckusAP kernel: [ 107.407368] kstat_init_tasklets: hash=0xd8, func=0xbf665454 tac_aging_nat6_entries
+Aug 7 17:40:54 RuckusAP kernel: [ 107.541676] Starting IP ACL module
+Aug 7 17:40:58 RuckusAP kernel: [ 111.630775] device uif0 entered promiscuous mode
+Aug 7 17:40:58 RuckusAP kernel: [ 111.631365] br0: port 3(uif0) entered forwarding state (brctl,1793)
+Aug 7 17:40:58 RuckusAP kernel: [ 111.631443] br0: port 3(uif0) entered forwarding state (brctl,1793)
+Aug 7 17:40:59 RuckusAP kernel: [ 112.633305] br0: port 3(uif0) entered forwarding state (sed,1813)
+Aug 7 17:41:00 RuckusAP stamgr: tac_init():max_pmk_num=20, stamgr_dpsk_housekeeping_interval=5
+Aug 7 17:41:00 RuckusAP syslog: pid=1752[1752], monitor():FileCache synced
+Aug 7 17:41:04 RuckusAP syslog: pid=1922[1922], _loadXml():Unable to parse XML file [/etc/airespider/eventd-stat.xml]
+Aug 7 17:41:04 RuckusAP syslog: pid=1922[1922], _loadXml():Unable to parse XML file [/etc/airespider/alarm-list.xml]
+Aug 7 17:41:04 RuckusAP syslog: pid=1922[1922], init_list_for_search():TR069's event list is NULL, and fail to load into hash table.
+Aug 7 17:41:04 RuckusAP syslog: pid=1922[1922], init_list_for_search():SNMP's event list is NULL, and fail to load into hash table.
+Aug 7 17:41:05 network name syslog: pid=1922[1922], applyBonjour():applyBonjour
+Aug 7 17:41:05 network name syslog: pid=1922[1922], applyInternalGateway():is-factory is false, then start internal gateway
+Aug 7 17:41:06 network name sys_wrapper: Begin to Stop PPPOE client
+Aug 7 17:41:06 network name sys_wrapper: PPPoE already stopped, cannot stop it again
+Aug 7 17:41:09 network name syslog: pid=1922[1976], autoFindNewUpdates():updates-file not exist, run find-updates.
+Aug 7 17:41:09 network name syslog: upgrade_debug: pid=2276, main(): rm -rf /tmp/unleashed_upgrade/control/*
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, get_ap_list(): ap-list loop 0.
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, get_ap_list(): see [/tmp/unleashed_upgrade/upgrade_ap_list_from_election.xml.ready], ap-list ready!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): is_system_upgrading = 0!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): now = 1691426470!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): update time stamp to each ap node done!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): add model r510 from election to upgrade ap list!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): add all models from election to upgrade ap list done!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): clone ap 1c:3a:60:36:6b:40 attributes from election to upgrade ap list!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): clone ap 18:7c:0b:3e:05:00 attributes from election to upgrade ap list!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): clone ap 18:7c:0b:3e:09:20 attributes from election to upgrade ap list!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): clone ap 1c:3a:60:34:76:50 attributes from election to upgrade ap list!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): merge all ap from election to upgrade ap list done!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): ap_node_find = 1!
+Aug 7 17:41:10 network name last message repeated 3 times
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): remove the ap node of upgrade_ap_list that do not exist in upgrade_ap_list_from_election done!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): remove the ap node that do not approved in ap_list from upgrade_ap_list done!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): special handle the M510 node from upgrade_ap_list done!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): remove the firmware cluster that have no any ap node done!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): remove the vap firmware cluster done!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): merge the election ap list to upgrade ap list done!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): curr_version_str=[200.14.6.1.199]
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): target_version_str = 200.14.6.1.199!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): upgrade_model_name = r510!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): target_version_str = 200.14.6.1.199!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): curr_version_str = 200.14.6.1.199!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): firmware_file open failure
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): imghdr.version = !
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): imghdr.product = !
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): version_match = 0!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): upgrade_state = upgrade-state-no-info!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): active_ver = 200.14.6.1.199!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): backup_ver = 200.7.10.102.64!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): target_version_str = 200.14.6.1.199!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): upgrade_state = upgrade-state-no-info!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): active_ver = 200.14.6.1.199!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): backup_ver = 200.7.10.102.64!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): target_version_str = 200.14.6.1.199!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): upgrade_state = upgrade-state-no-info!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): active_ver = 200.14.6.1.199!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): backup_ver = 200.7.10.102.64!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): target_version_str = 200.14.6.1.199!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): upgrade_state = upgrade-state-no-info!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): active_ver = 200.14.6.1.199!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): backup_ver = 200.7.10.102.64!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): target_version_str = 200.14.6.1.199!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): update the version field of upgrade ap list node done!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): in wizard phase!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): cluster r510 ap_num change to 1
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, insert_field_to_upgrade_ap_list(): upgrade ap list all done!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, download_control_files(): model:R510, serial number:161902007136.
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, download_control_files(): downloading R510 161902007136 control file!
+Aug 7 17:41:10 network name syslog: upgrade_debug: pid=2276, cmdDownloadControl(): sh /tmp/unleashed_upgrade/upgrade_download_tool.sh --download-control R510 161902007136 ignore /tmp/unleashed_upgrade/control/R510_control.txt
+Aug 7 17:41:11 network name syslog: AP get the broadcast ip in its subnet, the broadcast ip is 192.168.86.255
+Aug 7 17:41:12 network name udhcpc: MSMB-407 begin update multicast iptable rules...
+Aug 7 17:41:12 network name nat: MSMB-407 begin nat_multicast_delete...
+Aug 7 17:41:12 network name udhcpc: MSMB-407 end update multicast iptable rules...
+Aug 7 17:41:14 network name syslog: lwapp_wtp_getaddrinfo failed to resolve unleashed.lan
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, download_control_files(): download the control file for model = R510, sn = 161902007136 success!
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): Start: show_all_version=0, show_one_version_per_release=1
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, cmdParseControl(): parse [/tmp/unleashed_upgrade/control/R510_control.txt]
+Aug 7 17:41:16 network name syslog: [truncated] upgrade_debug: pid=2276, cmdParseControl(): buf is [{"xml":"\u003Cmodel name=\"R510\"\u003E\r\n \u003Cversion number=\"200.3.9.13.228\" proto=\"https\" ip=\"unleashedupdate.ruckuswireless.com\" port=\"443\" path=\"200.3.9.13/unleashed_r510_200.3.9.13.228.bl7\" image_size=\"33120252\" /\u003E\r\n \u003Cversion number=\"200.4.9.13.47\" proto=\"https\" ip=\"unleashedupdate.ruckuswireless.com\" port=\"443\" path=\"200.4.9.13/unleashed_r510_200.4.9.13.47.bl7\" image_size=\"33206268\" /\u003E\r\n \u003Cversion number=\"200.5.10.0.291\" proto=\"https\" ip=\"unleashedupdate.ruckuswireless.com\" port=\"443\" path=\"200.5.10.0/unleashed_r510_200.5.10.0.291.bl7\" image_size=\"25667580\" /\u003E\r\n \u003Cversion number=\"200.6.10.1.312\" proto=\"https\" ip=\"unleashedupdate.ruckuswireless.com\" port=\"443\" path=\"200.6.10.1/unleashed_r510_200.6.10.1.312.bl7\" image_size=\"25227260\" /\u003E\r\n \u003Cversion number=\"200.7.10.2.339\" proto=\"
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.14.6.1.199], backward-compatible-ver: [200.7.10.2.0]
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.14.6.1.179], backward-compatible-ver: [200.7.10.2.0]
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.13.6.1.319], backward-compatible-ver: [200.7.10.2.0]
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.12.10.105.129], backward-compatible-ver: [200.7.10.2.0]
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.12.10.105.100], backward-compatible-ver: [200.7.10.2.0]
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.12.10.5.234], backward-compatible-ver: [200.7.10.2.0]
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.11.10.5.195], backward-compatible-ver: [200.7.10.2.0]
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.10.10.5.253], backward-compatible-ver: [200.7.10.2.0]
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.10.10.5.246], backward-compatible-ver: [200.7.10.2.0]
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.10.10.5.229], backward-compatible-ver: [200.7.10.2.0]
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.9.10.4.243], backward-compatible-ver: [200.7.10.2.0]
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.9.10.4.233], backward-compatible-ver: [200.7.10.2.0]
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.9.10.4.212], backward-compatible-ver: [200.7.10.2.0]
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.9.10.4.202], backward-compatible-ver: [200.7.10.2.0]
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.8.10.3.290], backward-compatible-ver: [200.7.10.2.0]
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.8.10.3.278], backward-compatible-ver: [200.7.10.2.0]
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.8.10.3.243], backward-compatible-ver: [200.7.10.2.0]
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.7.10.202.141], backward-compatible-ver: []
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.7.10.202.127], backward-compatible-ver: []
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.7.10.202.121], backward-compatible-ver: []
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.7.10.202.118], backward-compatible-ver: []
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.7.10.202.94], backward-compatible-ver: []
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.7.10.202.92], backward-compatible-ver: []
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.7.10.102.64], backward-compatible-ver: []
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.7.10.2.339], backward-compatible-ver: []
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.6.10.1.312], backward-compatible-ver: []
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.5.10.0.291], backward-compatible-ver: []
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.4.9.13.47], backward-compatible-ver: []
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, find_updates(): child ver: [200.3.9.13.228], backward-compatible-ver: []
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, get_rollback_configuration_file(): target version: 0.0.0.0.0
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, get_rollback_configuration_file(): ptr->d_name = 200.7.10.102.64.tgz.timestamp
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, get_rollback_configuration_file(): ptr->d_name = 200.7.10.102.64.tgz
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, get_rollback_configuration_file(): file_major = 200, file_minor = 7, file_revs = 10, file_cust = 102, file_build = 64, file name = 200.7.10.102.64.tgz!
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, get_rollback_configuration_file(): file name = 200.7.10.102.64.tgz!
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, get_rollback_configuration_file(): statbuff.st_mtime = 1690248122!
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, get_rollback_configuration_file(): time_str = Tue Jul 25 02:22:02 2023!
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, get_rollback_configuration_file(): to find the rollback configuration file = 200.7.10.102.64.tgz in mode online!
+Aug 7 17:41:16 network name syslog: upgrade_debug: pid=2276, get_rollback_configuration_file(): file version = 200.7.10.102, current version = 200.14.6.1!
+Aug 7 17:41:17 network name syslog: pid=1922[1922], sendSigValToWebs():Could not find webs pid to send signal value(1)
+Aug 7 17:41:18 network name syslog: pid=1752[1752], monitor():FileCache synced
+Aug 7 17:41:19 network name syslog: pid=1922[1922], unleashed_notify_wanmond_debug_level():the debug flag for wanmond is
+Aug 7 17:41:20 network name syslog: pid=1922[1922], applyBonjour():applyBonjour
+Aug 7 17:41:22 network name syslog: upgrade_debug: pid=2276, get_rollback_configuration_file(): save rollback configuration file info to file /tmp/unleashed_upgrade/rollback_configuration_info.xml!
+Aug 7 17:41:22 network name syslog: upgrade_debug: pid=2276, find_online_rollback_updates_wrapper(): rollback_file_name = 200.7.10.102.64!
+Aug 7 17:41:22 network name syslog: upgrade_debug: pid=2276, cmdParseControl(): parse [/tmp/unleashed_upgrade/control/R510_control.txt]
+Aug 7 17:41:22 network name syslog: [truncated] upgrade_debug: pid=2276, cmdParseControl(): buf is [{"xml":"\u003Cmodel name=\"R510\"\u003E\r\n \u003Cversion number=\"200.3.9.13.228\" proto=\"https\" ip=\"unleashedupdate.ruckuswireless.com\" port=\"443\" path=\"200.3.9.13/unleashed_r510_200.3.9.13.228.bl7\" image_size=\"33120252\" /\u003E\r\n \u003Cversion number=\"200.4.9.13.47\" proto=\"https\" ip=\"unleashedupdate.ruckuswireless.com\" port=\"443\" path=\"200.4.9.13/unleashed_r510_200.4.9.13.47.bl7\" image_size=\"33206268\" /\u003E\r\n \u003Cversion number=\"200.5.10.0.291\" proto=\"https\" ip=\"unleashedupdate.ruckuswireless.com\" port=\"443\" path=\"200.5.10.0/unleashed_r510_200.5.10.0.291.bl7\" image_size=\"25667580\" /\u003E\r\n \u003Cversion number=\"200.6.10.1.312\" proto=\"https\" ip=\"unleashedupdate.ruckuswireless.com\" port=\"443\" path=\"200.6.10.1/unleashed_r510_200.6.10.1.312.bl7\" image_size=\"25227260\" /\u003E\r\n \u003Cversion number=\"200.7.10.2.339\" proto=\"
+Aug 7 17:41:22 network name syslog: upgrade_debug: pid=2276, find_online_rollback_updates(): cur_version_number=200.14.6.1.199
+Aug 7 17:41:22 network name syslog: upgrade_debug: pid=2276, find_online_rollback_updates(): target_version_number=200.7.10.102.64
+Aug 7 17:41:22 network name syslog: upgrade_debug: pid=2276, find_online_rollback_updates(): node_version_number=200.3.9.13.228
+Aug 7 17:41:22 network name syslog: upgrade_debug: pid=2276, find_online_rollback_updates(): node_version_number=200.4.9.13.47
+Aug 7 17:41:22 network name syslog: upgrade_debug: pid=2276, find_online_rollback_updates(): node_version_number=200.5.10.0.291
+Aug 7 17:41:22 network name syslog: upgrade_debug: pid=2276, find_online_rollback_updates(): node_version_number=200.6.10.1.312
+Aug 7 17:41:22 network name syslog: upgrade_debug: pid=2276, find_online_rollback_updates(): node_version_number=200.7.10.2.339
+Aug 7 17:41:22 network name syslog: upgrade_debug: pid=2276, find_online_rollback_updates(): node_version_number=200.7.10.102.64
+Aug 7 17:41:22 network name syslog: upgrade_debug: pid=2276, find_online_rollback_updates(): match_bld = 64!
+Aug 7 17:41:22 network name syslog: upgrade_debug: pid=2276, find_online_rollback_updates(): matched child ver: [200.7.10.102.64], backward-compatible-ver: []
+Aug 7 17:41:22 network name syslog: pid=1922[1922], applyPubnub():start pubnub service with pub-key [], sub-key [], channel [un1619020071361550223059614]
+Aug 7 17:41:23 network name syslog: pid=1922[1922], applyPubnub():start pubnub service with pub-key [], sub-key [], channel [un1619020071361550223059614]
+Aug 7 17:41:23 network name syslog: pubnubd_debug: pid=2922, debug_init[91]: Set log_level file to [/tmp/pubnubd_loglevel].
+Aug 7 17:41:23 network name syslog: pubnubd: set debug_log_level to 3, internal log_level to 1.
+Aug 7 17:41:23 network name syslog: pubnubd_debug: pid=2922, main[914]: missing publish-key|subscribe-key|channel-name, pending service.
+Aug 7 17:41:23 network name syslog: pubnubd_debug: pid=2922, handle_state_change[778]: state change [(null)]->[PENDING].
+Aug 7 17:41:23 network name syslog: pubnubd_debug: pid=2922, handle_state_change[796]: 'Mon Aug 7 17:41:23 2023': service recovered
+Aug 7 17:41:24 network name syslog: pid=1922[1922], applyPasswordRecoveryPromotionSetting():the success_login_times in system.xml is 0
+Aug 7 17:41:24 network name syslog: pid=1922[1922], easyDeplyCleanNode():Easy Deply 21082 remove the easy-deployment nodes
+Aug 7 17:41:24 network name syslog: pubnubd_debug: pid=2946, debug_init[91]: Set log_level file to [/tmp/pubnubd_loglevel].
+Aug 7 17:41:24 network name syslog: pubnubd: set debug_log_level to 3, internal log_level to 1.
+Aug 7 17:41:24 network name syslog: pubnubd_debug: pid=2946, main[914]: missing publish-key|subscribe-key|channel-name, pending service.
+Aug 7 17:41:24 network name syslog: pubnubd_debug: pid=2946, handle_state_change[778]: state change [(null)]->[PENDING].
+Aug 7 17:41:24 network name syslog: pubnubd_debug: pid=2946, handle_state_change[796]: 'Mon Aug 7 17:41:24 2023': service recovered
+Aug 7 17:41:25 network name mDNSResponder: mDNSResponder (Engineering Build) (Jun 15 2023 06:49:13) starting
+Aug 7 17:41:25 network name mDNSResponder: mDNS_RegisterInterface: Error! Tried to register a NetworkInterfaceInfo 169.254.17.13 with invalid mask 0.0.0.0
+Aug 7 17:41:25 network name mDNSResponder: mDNS_RegisterInterface: Error! Tried to register a NetworkInterfaceInfo 169.254.17.12 with invalid mask 0.0.0.0
+Aug 7 17:41:25 network name mDNSResponder: mDNS_AddDNSServer: Lock not held! mDNS_busy (0) mDNS_reentrancy (0)
+Aug 7 17:41:26 network name mDNSResponder: MAC Str IS 1C:3A:60:36:6B:40 V6^R
+Aug 7 17:41:26 network name mDNSResponder: Global: MAC IS 1c:3a:60:36:6b:40
+Aug 7 17:41:26 network name mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:26 network name mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:26 network name mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:26 network name mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:26 network name mDNSResponder: Bad service type in network name._ruckus-unleashed._tcp.local. Application protocol name must be underscore plus 1-15 characters. See <http://www.dns-sd.org/ServiceTypes.html>
+Aug 7 17:41:26 network name mDNSResponder: Bad service type in ._ruckus-unleashed._tcp.local. Application protocol name must be underscore plus 1-15 characters. See <http://www.dns-sd.org/ServiceTypes.html>
+Aug 7 17:41:26 network name mDNSResponder: Bad service type in network name._ruckus-unleashed._tcp.local. Application protocol name must be underscore plus 1-15 characters. See <http://www.dns-sd.org/ServiceTypes.html>
+Aug 7 17:41:26 network name mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:26 network name mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:27 network name mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:27 network name mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:27 network name mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:27 network name mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:27 network name mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:27 network name mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:27 network name mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:27 network name mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:28 network name mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:28 network name mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:28 network name syslogd (inetutils 1.4.0): restart (remote reception)
+Aug 7 17:41:29 network name kernel: [ 142.751436] ipacl_ioctl set ipvacl ok
+Aug 7 17:41:29 network name kernel: [ 142.751971] ipaclv6_ioctl set ipv6acl ok
+Aug 7 17:41:30 network name mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:30 network name mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:30 network name sys_wrapper: Start Bind DHCP server
+Aug 7 17:41:30 network name syslog: sqlited, adding AP group: 1, wlangrp_id[0]=1, wlangrp_id[1]=1
+Aug 7 17:41:30 network name stamgr: stamgr_load_config():begin to load sta iot config
+Aug 7 17:41:31 network name stamgr: cltr_open():Failed to connect to clusterD (No such file or directory)
+Aug 7 17:41:31 network name radsecproxy[3161]: createlistener: listening for udp on *:1815
+Aug 7 17:41:33 network name syslog: pid=1922[1922], applyPubnub():start pubnub service with pub-key [], sub-key [], channel [un1619020071361550223059614]
+Aug 7 17:41:33 network name syslog: AP get the broadcast ip in its subnet, the broadcast ip is 192.168.86.255
+Aug 7 17:41:34 network name mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:34 network name mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:34 network name syslog: pid=1922[1922], TR069_Adapter_doCommand_cluster():adapter send message (TO_ADAPTER_WEBS_NOTIFY) fail
+Aug 7 17:41:34 network name syslog: pubnubd_debug: pid=3226, debug_init[91]: Set log_level file to [/tmp/pubnubd_loglevel].
+Aug 7 17:41:34 network name syslog: pubnubd: set debug_log_level to 3, internal log_level to 1.
+Aug 7 17:41:34 network name syslog: pubnubd_debug: pid=3226, main[914]: missing publish-key|subscribe-key|channel-name, pending service.
+Aug 7 17:41:34 network name syslog: pubnubd_debug: pid=3226, handle_state_change[778]: state change [(null)]->[PENDING].
+Aug 7 17:41:34 network name syslog: pubnubd_debug: pid=3226, handle_state_change[796]: 'Mon Aug 7 17:41:34 2023': service recovered
+Aug 7 17:41:34 network name syslog: pid=1922[1922], fillAttrs():Usage error, name-value pair mismatched
+Aug 7 17:41:34 network name syslog: pid=1922[1922], start_zd_tr069():adapter up
+Aug 7 17:41:34 network name syslog: pid=1922[3240], icxd_daemon():ICXD: Start.
+Aug 7 17:41:34 network name syslog: pid=1922[3240], icxd_wait_until_sys_ready():ICXD: Start.
+Aug 7 17:41:34 network name syslog: pid=1922[3240], icxd_wait_until_sys_ready():ICXD: Pending 10 secs due to system state [STARTING] is not "READY".
+Aug 7 17:41:34 network name sys_wrapper: UpdateOpenVPNService stop openvpn
+Aug 7 17:41:34 network name syslog: pid=1922[3234], TR069_Adapter_thread_main():start tr069d, the flag is 0
+Aug 7 17:41:34 network name rsmd[98]: openvpnd ........ [failed ] (0.027)
+Aug 7 17:41:34 network name rsmd[98]: openvpnd: ref count 0 mon_level 2
+Aug 7 17:41:35 network name syslog: lwapp_wtp_getaddrinfo failed to resolve unleashed.lan
+Aug 7 17:41:35 network name ZD-APMgr: Cannot notify kernel for Upd AP Param 192.168.86.52(12225) event, -- No such file or directory(2)
+Aug 7 17:41:35 network name ZD-APMgr: lbs url:,port:0,venue:
+Aug 7 17:41:35 network name ZD-APMgr: lwapp_notify_stamgr_add_ap-973 lldp enable:0,interval:0,holdtime:0,mgmt:0
+Aug 7 17:41:35 network name stamgr: stamgr_get_ap_limited_poe_function_info():the poe_model_string length is 0
+Aug 7 17:41:35 network name stamgr: stamgr_init_AP():AP[r510]:the limited function poe mode is 0,0,0,0,0,0,0,0,0
+Aug 7 17:41:35 network name stamgr: stamgr_init_AP():AP 1c:3a:60:34:76:50 radio(6) default channelset_enable=1 channelset=1057 Line:2557
+Aug 7 17:41:35 network name stamgr: stamgr_init_AP():AP 1c:3a:60:34:76:50 radio(5) default channelset_enable=0 channelset=0 Line:2557
+Aug 7 17:41:35 network name ZD-APMgr: Warning! length of VAP from STAMGR is less than one VAP data, data_len= 0 one_vap_len= 607
+Aug 7 17:41:35 network name ZD-APMgr: ? AC sends time sync message to AP
+Aug 7 17:41:35 network name ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:35 network name ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:36 network name syslog: pid=1922[2951], send_alarm_2_email():email server is disabled
+Aug 7 17:41:36 network name syslog: eventd_to_syslog():AP[1c:3a:60:34:76:50] joins with uptime [149] s and last disconnected reason [AP Restart : power cycle]
+Aug 7 17:41:36 network name ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6866
+Aug 7 17:41:36 network name syslog: (ap state) AP begin to join ac.
+Aug 7 17:41:37 network name syslog: Cannot notify kernel for Upd AP Param 192.168.86.54(0) event, -- No such file or directory(2)
+Aug 7 17:41:37 network name ZD-APMgr: Cannot notify kernel for Upd AP Param 192.168.86.54(12225) event, -- No such file or directory(2)
+Aug 7 17:41:37 network name kernel: [ 150.726946] Route found: xmitdev=br0, nexthop=192.168.86.52, saddr=192.168.86.54, pmtu=1500
+Aug 7 17:41:37 network name kernel: [ 150.726973] Neighbour found: nexthopmac=1c:3a:60:34:76:50
+Aug 7 17:41:37 network name ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:37 network name ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:37 network name syslog: eventd_to_syslog():AP[1c:3a:60:34:76:50] cold boot successfully
+Aug 7 17:41:37 network name ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6998
+Aug 7 17:41:37 network name ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:37 network name ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:37 network name ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8664
+Aug 7 17:41:37 network name syslog: WTP join cfm response, lwapp_notify_kernel_ip_addr [nat ipv4]. nat_ipv4_addr: 192.168.86.54 port: 0 family: 2
+Aug 7 17:41:37 network name syslog: WTP join cfm response, lwapp_notify_kernel_ip_addr [ipv6]. ipv6_addr: :: port: 0
+Aug 7 17:41:37 network name ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:37 network name ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:37 network name ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8376
+Aug 7 17:41:37 network name ZD-APMgr: lbs url:,port:0,venue:
+Aug 7 17:41:37 network name ZD-APMgr: lwapp_notify_stamgr_add_ap-973 lldp enable:0,interval:0,holdtime:0,mgmt:0
+Aug 7 17:41:37 network name syslog: pid=3340[3340], main():FileCache synced
+Aug 7 17:41:37 network name stamgr: stamgr_get_ap_limited_poe_function_info():the poe_model_string length is 0
+Aug 7 17:41:37 network name stamgr: stamgr_init_AP():AP[r510]:the limited function poe mode is 0,0,0,0,0,0,0,0,0
+Aug 7 17:41:37 network name stamgr: stamgr_init_AP():AP 1c:3a:60:36:6b:40 radio(6) default channelset_enable=1 channelset=1057 Line:2557
+Aug 7 17:41:37 network name stamgr: stamgr_init_AP():AP 1c:3a:60:36:6b:40 radio(5) default channelset_enable=0 channelset=0 Line:2557
+Aug 7 17:41:37 network name syslog: pid=1922[2951], send_alarm_2_email():email server is disabled
+Aug 7 17:41:37 network name syslog: eventd_to_syslog():AP[1c:3a:60:36:6b:40] joins with uptime [151] s and last disconnected reason [AP Restart : power cycle]
+Aug 7 17:41:37 network name ZD-APMgr: Warning! length of VAP from STAMGR is less than one VAP data, data_len= 0 one_vap_len= 607
+Aug 7 17:41:37 network name ZD-APMgr: ? AC sends time sync message to AP
+Aug 7 17:41:37 network name ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:37 network name ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:37 network name ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6866
+Aug 7 17:41:37 network name ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:37 network name ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:37 network name syslog: System time was synced
+Aug 7 17:41:37 network name syslog: lwapp_proc_vendor_me, 5376 Failed to set set lbs port(parameter value out of range)
+Aug 7 17:41:37 network name syslog: lwapp_proc_vendor_me: setting ip mode, before=1, now=1
+Aug 7 17:41:37 network name ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8280
+Aug 7 17:41:37 network name syslog: ?need to update avp_port_mapping.
+Aug 7 17:41:37 network name syslog: [lwapp_update_wtp_vendor:9119] : system buf=echo "GMT+0BST,M3.5.0/01:00:00,M10.5.0/02:00:00">/etc/TZ
+Aug 7 17:41:37 network name syslog: [lwapp_update_wtp_vendor:8741] : company=4bss, strlen(company)=4
+Aug 7 17:41:37 network name sys_wrapper: UpdateOpenVPNService openvpn should stopped for 3 seconds
+Aug 7 17:41:37 network name rsmd[98]: lldpd ........... [stopped] (0.043)
+Aug 7 17:41:37 network name sys_wrapper: the factory state is false, the openvpn_enabled is 0, the cluster state is disabled
+Aug 7 17:41:37 network name ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:37 network name ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:37 network name ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8376
+Aug 7 17:41:37 network name kernel: [ 151.273790] 1
+Aug 7 17:41:37 network name kernel: [ 151.276068] Save ap_max_assoc: 100
+Aug 7 17:41:37 network name kernel: [ 151.295213] ol_ath_set_rx_sens_level:9282 Set Sensitivity Level :-92
+Aug 7 17:41:37 network name ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:37 network name ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:37 network name ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8376
+Aug 7 17:41:37 network name APMgr@RuckusAP: lwapp_update_radio band:2G spectral enabled:0 Update Channel mode:Yes
+Aug 7 17:41:37 network name kernel: [ 151.388274] ol_ath_set_rx_sens_level:9282 Set Sensitivity Level :-92
+Aug 7 17:41:37 network name kernel: [ 151.391563] ol_ath_set_rx_sens_level:9282 Set Sensitivity Level :-92
+Aug 7 17:41:37 network name ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:37 network name ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:37 network name ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6936
+Aug 7 17:41:37 network name APMgr@RuckusAP: lwapp_update_radio band:5G spectral enabled:0 Update Channel mode:Yes
+Aug 7 17:41:37 network name kernel: [ 151.492604] [br_set_port_type:577] - Port type configuration applied, dev - eth0, port type - 1
+Aug 7 17:41:37 network name kernel: [ 151.498383] [br_set_port_type:577] - Port type configuration applied, dev - eth1, port type - 1
+Aug 7 17:41:37 network name APMgr@RuckusAP: Succeeded to set VLAN traffic class at port VLAN config step.
+Aug 7 17:41:37 RuckusAP kernel: [ 151.560718] v54_bsp: 0xffff
+Aug 7 17:41:37 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:37 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:37 RuckusAP kernel: [ 151.563437] 1
+Aug 7 17:41:37 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 9576
+Aug 7 17:41:37 RuckusAP kernel: [ 151.593424] wmi_unified_pdev_tpc_config_event_handler 12986 scn->txpower_scale 0 scn->max_tx_power 63 ic->ic_txpowlimit 46
+Aug 7 17:41:37 RuckusAP kernel: [ 151.597171] wmi_unified_pdev_tpc_config_event_handler 12986 scn->txpower_scale 0 scn->max_tx_power 63 ic->ic_txpowlimit 42
+Aug 7 17:41:37 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:37 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:37 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8736
+Aug 7 17:41:37 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:37 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:37 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 9096
+Aug 7 17:41:37 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:37 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:37 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6936
+Aug 7 17:41:37 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:37 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:37 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6936
+Aug 7 17:41:37 RuckusAP kernel: [ 152.093656] br6: port 1(uif1) entered forwarding state (apmgr,1287)
+Aug 7 17:41:37 RuckusAP kernel: [ 152.093746] br6: port 1(uif1) entered forwarding state (apmgr,1287)
+Aug 7 17:41:37 RuckusAP kernel: [ 152.093021] device uif1 entered promiscuous mode
+Aug 7 17:41:37 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:37 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:37 RuckusAP kernel: [ 152.095645] IPv6: ADDRCONF(NETDEV_CHANGE): br6: link becomes ready
+Aug 7 17:41:37 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6936
+Aug 7 17:41:38 RuckusAP APMgr@RuckusAP: (ap state) AP join AC successfully, and come to run state.
+Aug 7 17:41:38 RuckusAP kernel: [ 152.448204] Route found: xmitdev=lo, nexthop=192.168.86.54, saddr=192.168.86.54, pmtu=65535
+Aug 7 17:41:38 RuckusAP kernel: [ 152.448233] Neighbour found: nexthopmac=00:00:00:00:00:00
+Aug 7 17:41:38 RuckusAP kernel: [ 152.450094] Route found: xmitdev=lo, nexthop=192.168.86.54, saddr=192.168.86.54, pmtu=65535
+Aug 7 17:41:38 RuckusAP kernel: [ 152.450122] Neighbour found: nexthopmac=00:00:00:00:00:00
+Aug 7 17:41:38 RuckusAP syslog: eventd_to_syslog():AP[1c:3a:60:36:6b:40] warm boot successfully,last reboot reason [power cycle].
+Aug 7 17:41:38 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:38 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:38 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6998
+Aug 7 17:41:38 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:38 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:38 RuckusAP APMgr@RuckusAP: lwapp_proc_vendor_me: setting ip mode, before=1, now=1
+Aug 7 17:41:38 RuckusAP APMgr@RuckusAP: ?need to update avp_port_mapping.
+Aug 7 17:41:38 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8664
+Aug 7 17:41:38 RuckusAP rsmd[98]: lldpd ........... [started] (0.179)
+Aug 7 17:41:38 RuckusAP rsmd[98]: rsmd_mo_service: snmptrap not found
+Aug 7 17:41:38 RuckusAP APMgr@RuckusAP: lwapp_proc_vendor_me: setting ip mode, before=1, now=1
+Aug 7 17:41:38 RuckusAP APMgr@RuckusAP: ?don't need to update avp_port_mapping.
+Aug 7 17:41:38 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:38 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:38 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8376
+Aug 7 17:41:38 RuckusAP APMgr@RuckusAP: lwapp_proc_vendor_me: setting ip mode, before=1, now=1
+Aug 7 17:41:38 RuckusAP APMgr@RuckusAP: ?don't need to update avp_port_mapping.
+Aug 7 17:41:38 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:38 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:38 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8280
+Aug 7 17:41:38 RuckusAP APMgr@RuckusAP: lwapp_proc_vendor_me: setting ip mode, before=1, now=1
+Aug 7 17:41:38 RuckusAP APMgr@RuckusAP: ?don't need to update avp_port_mapping.
+Aug 7 17:41:38 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:38 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:38 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8376
+Aug 7 17:41:38 RuckusAP APMgr@RuckusAP: lwapp_proc_vendor_me: setting ip mode, before=1, now=1
+Aug 7 17:41:38 RuckusAP APMgr@RuckusAP: ?don't need to update avp_port_mapping.
+Aug 7 17:41:38 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:38 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:38 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8376
+Aug 7 17:41:38 RuckusAP APMgr@RuckusAP: lwapp_proc_vendor_me: setting ip mode, before=1, now=1
+Aug 7 17:41:38 RuckusAP APMgr@RuckusAP: ?don't need to update avp_port_mapping.
+Aug 7 17:41:38 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:38 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:38 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6936
+Aug 7 17:41:38 RuckusAP APMgr@RuckusAP: lwapp_proc_vendor_me: setting ip mode, before=1, now=1
+Aug 7 17:41:38 RuckusAP APMgr@RuckusAP: ?don't need to update avp_port_mapping.
+Aug 7 17:41:38 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:38 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:38 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 9576
+Aug 7 17:41:38 RuckusAP APMgr@RuckusAP: lwapp_proc_vendor_me: setting ip mode, before=1, now=1
+Aug 7 17:41:38 RuckusAP APMgr@RuckusAP: ?don't need to update avp_port_mapping.
+Aug 7 17:41:38 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:38 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:38 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8736
+Aug 7 17:41:38 RuckusAP kernel: [ 153.095303] br6: port 1(uif1) entered forwarding state (apmgr,1287)
+Aug 7 17:41:38 RuckusAP APMgr@RuckusAP: lwapp_proc_vendor_me: setting ip mode, before=1, now=1
+Aug 7 17:41:38 RuckusAP APMgr@RuckusAP: ?don't need to update avp_port_mapping.
+Aug 7 17:41:38 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:38 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:38 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 9096
+Aug 7 17:41:38 RuckusAP APMgr@RuckusAP: lwapp_proc_vendor_me: setting ip mode, before=1, now=1
+Aug 7 17:41:39 RuckusAP APMgr@RuckusAP: ?don't need to update avp_port_mapping.
+Aug 7 17:41:39 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:39 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:39 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6936
+Aug 7 17:41:39 RuckusAP APMgr@RuckusAP: lwapp_proc_vendor_me: setting ip mode, before=1, now=1
+Aug 7 17:41:39 RuckusAP APMgr@RuckusAP: ?don't need to update avp_port_mapping.
+Aug 7 17:41:39 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:39 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:39 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6936
+Aug 7 17:41:39 RuckusAP APMgr@RuckusAP: lwapp_proc_vendor_me: setting ip mode, before=1, now=1
+Aug 7 17:41:39 RuckusAP APMgr@RuckusAP: ?don't need to update avp_port_mapping.
+Aug 7 17:41:39 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:39 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:39 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6936
+Aug 7 17:41:39 RuckusAP APMgr@RuckusAP: lwapp_proc_vendor_me: setting ip mode, before=1, now=1
+Aug 7 17:41:39 RuckusAP APMgr@RuckusAP: ?don't need to update avp_port_mapping.
+Aug 7 17:41:39 RuckusAP kernel: [ 153.290931] su bfee 0 mu bfee 0 su bfer 1 mu bfer 0 impl bf 0 sounding dim 1
+Aug 7 17:41:39 RuckusAP kernel: [ 153.294798] ieee80211_ioctl_setparam:3988 Seting Probe/Auth/Assoc RSSI Threshold:0 dBm dev:wlan0
+Aug 7 17:41:39 RuckusAP kernel: [ 153.294966] ieee80211_ioctl_setparam:4006 Seting Auth RSSI Threshold:0 dBm dev:wlan0
+Aug 7 17:41:39 RuckusAP kernel: [ 153.295664] ieee80211_ioctl_setparam:4024 Seting Assoc RSSI Threshold:0 dBm dev:wlan0
+Aug 7 17:41:39 RuckusAP kernel: [ 153.295833] ieee80211_ioctl_setparam:4042 Setting Join Ignore timeout:0 ms dev:wlan0
+Aug 7 17:41:39 RuckusAP kernel: [ 153.296008] ieee80211_ioctl_setparam 4091 Setting Join Ignore Threshold:0 dev:wlan0
+Aug 7 17:41:39 RuckusAP kernel: [ 153.296116] ieee80211_ioctl_setparam 4082 Setting Join Accept Timeout:0 ms dev:wlan0
+Aug 7 17:41:39 RuckusAP kernel: [ 153.296546] ol_ath_set_bssprio:14188, vap 1c:3a:60:36:6b:48, priority 1, class prio map 0x6040200 vdev_id 0 vo_txop_limit_us(0) high_cnt(1) low_cnt(1)
+Aug 7 17:41:39 RuckusAP APMgr@RuckusAP: AVP, ifname = wlan0, avp_en = 0
+Aug 7 17:41:39 RuckusAP APMgr@RuckusAP: url, ifname = wlan0, url_en = 0
+Aug 7 17:41:39 RuckusAP APMgr@RuckusAP: url, ifname = wlan0, if_index = 0, url_uuid = id=0, en = 0
+Aug 7 17:41:39 RuckusAP APMgr@RuckusAP: client flow log, ifname = wlan0, flowlog_en = 0
+Aug 7 17:41:39 RuckusAP stamgr: stamgr_AP_xml_house_keeping():complete updating ap cfg to emfd
+Aug 7 17:41:42 RuckusAP APMgr@RuckusAP: Succeeded to set vap VLAN traffic class.
+Aug 7 17:41:42 RuckusAP kernel: [ 156.447567] check!set_rrm: value=0, rrm_enabled=0x0
+Aug 7 17:41:42 RuckusAP kernel: [ 156.455954] ieee80211_ioctl_setparam:4042 Setting Join Ignore timeout:0 ms dev:wlan0
+Aug 7 17:41:42 RuckusAP kernel: [ 156.456037] ieee80211_ioctl_setparam 4082 Setting Join Accept Timeout:0 ms dev:wlan0
+Aug 7 17:41:42 RuckusAP kernel: [ 156.456132] ieee80211_ioctl_setparam 4091 Setting Join Ignore Threshold:0 dev:wlan0
+Aug 7 17:41:42 RuckusAP kernel: [ 156.456235] ieee80211_ioctl_setparam:3988 Seting Probe/Auth/Assoc RSSI Threshold:0 dBm dev:wlan0
+Aug 7 17:41:42 RuckusAP kernel: [ 156.456879] ol_ath_cwm_init: mode 0 extoffset 0 protmode 0 protspacing 1 cw_enable 0
+Aug 7 17:41:42 RuckusAP kernel: [ 156.456879]
+Aug 7 17:41:42 RuckusAP kernel: [ 156.457003] wmi_unified_pdev_tpc_config_event_handler 12986 scn->txpower_scale 0 scn->max_tx_power 63 ic->ic_txpowlimit 46
+Aug 7 17:41:42 RuckusAP kernel: [ 156.457101] wmi_unified_pdev_tpc_config_event_handler 12986 scn->txpower_scale 0 scn->max_tx_power 63 ic->ic_txpowlimit 46
+Aug 7 17:41:42 RuckusAP kernel: [ 156.460944] ol_ath_set_bssprio:14188, vap 1c:3a:60:36:6b:48, priority 1, class prio map 0x6040200 vdev_id 0 vo_txop_limit_us(0) high_cnt(1) low_cnt(1)
+Aug 7 17:41:42 RuckusAP kernel: [ 156.462049] ol_ath_cwm_init: mode 0 extoffset 0 protmode 0 protspacing 1 cw_enable 0
+Aug 7 17:41:42 RuckusAP kernel: [ 156.462049] ******** ieee80211_cancel_scan,857: cancel scan
+Aug 7 17:41:42 RuckusAP kernel: [ 156.462162] [2023/8/7 16:41:42] wmi_unified_vdev_stop_send for vap 0
+Aug 7 17:41:42 RuckusAP kernel: [ 156.489243] [2023/8/7 16:41:42] wmi_unified_vdev_down_send for vap 0
+Aug 7 17:41:42 RuckusAP kernel: [ 156.492378] ol_ath_cwm_init: mode 0 extoffset 0 protmode 0 protspacing 1 cw_enable 0
+Aug 7 17:41:42 RuckusAP kernel: [ 156.492378]
+Aug 7 17:41:42 RuckusAP kernel: [ 156.492497] wmi_unified_pdev_tpc_config_event_handler 12986 scn->txpower_scale 0 scn->max_tx_power 46 ic->ic_txpowlimit 46
+Aug 7 17:41:42 RuckusAP kernel: [ 156.492615] wmi_unified_pdev_tpc_config_event_handler 12986 scn->txpower_scale 0 scn->max_tx_power 46 ic->ic_txpowlimit 46
+Aug 7 17:41:42 RuckusAP kernel: [ 156.495683] device wlan0 entered promiscuous mode
+Aug 7 17:41:42 RuckusAP kernel: [ 156.496249] br0: port 4(wlan0) entered forwarding state (apmgr,1287)
+Aug 7 17:41:42 RuckusAP kernel: [ 156.496360] br0: port 4(wlan0) entered forwarding state (apmgr,1287)
+Aug 7 17:41:42 RuckusAP mDNSResponder: mDNS_RegisterInterface: Error! Tried to register a NetworkInterfaceInfo 169.254.17.13 with invalid mask 0.0.0.0
+Aug 7 17:41:42 RuckusAP mDNSResponder: mDNS_RegisterInterface: Error! Tried to register a NetworkInterfaceInfo 169.254.17.12 with invalid mask 0.0.0.0
+Aug 7 17:41:42 RuckusAP kernel: [ 156.697025] su bfee 0 mu bfee 0 su bfer 1 mu bfer 0 impl bf 0 sounding dim 1
+Aug 7 17:41:42 RuckusAP kernel: [ 156.770125] ieee80211_ioctl_setparam 4082 Setting Join Accept Timeout:0 ms dev:wlan1
+Aug 7 17:41:42 RuckusAP kernel: [ 156.770490] ol_ath_set_bssprio:14188, vap 1c:3a:60:76:6b:48, priority 1, class prio map 0x6040200 vdev_id 1 vo_txop_limit_us(0) high_cnt(2) low_cnt(1)
+Aug 7 17:41:42 RuckusAP kernel: [ 156.769308] ieee80211_ioctl_setparam:3988 Seting Probe/Auth/Assoc RSSI Threshold:0 dBm dev:wlan1
+Aug 7 17:41:42 RuckusAP kernel: [ 156.769414] ieee80211_ioctl_setparam:4006 Seting Auth RSSI Threshold:0 dBm dev:wlan1
+Aug 7 17:41:42 RuckusAP kernel: [ 156.769889] ieee80211_ioctl_setparam:4024 Seting Assoc RSSI Threshold:0 dBm dev:wlan1
+Aug 7 17:41:42 RuckusAP kernel: [ 156.769993] ieee80211_ioctl_setparam:4042 Setting Join Ignore timeout:0 ms dev:wlan1
+Aug 7 17:41:42 RuckusAP kernel: [ 156.770060] ieee80211_ioctl_setparam 4091 Setting Join Ignore Threshold:0 dev:wlan1
+Aug 7 17:41:42 RuckusAP APMgr@RuckusAP: AVP, ifname = wlan1, avp_en = 0
+Aug 7 17:41:42 RuckusAP avpd[902]: __wificalling_intf_del: 996: Interface: wlan1 not found
+Aug 7 17:41:42 RuckusAP APMgr@RuckusAP: url, ifname = wlan1, url_en = 0
+Aug 7 17:41:42 RuckusAP APMgr@RuckusAP: url, ifname = wlan1, if_index = 0, url_uuid = id=0, en = 0
+Aug 7 17:41:42 RuckusAP APMgr@RuckusAP: client flow log, ifname = wlan1, flowlog_en = 0
+Aug 7 17:41:42 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:42 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:43 RuckusAP ZD-APMgr: Cannot notify kernel for Upd AP Param 192.168.86.55(12225) event, -- No such file or directory(2)
+Aug 7 17:41:43 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:43 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:43 RuckusAP kernel: [ 157.497299] br0: port 4(wlan0) entered forwarding state (stainfod,3580)
+Aug 7 17:41:43 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:43 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:43 RuckusAP ZD-APMgr: lbs url:,port:0,venue:
+Aug 7 17:41:43 RuckusAP ZD-APMgr: lwapp_notify_stamgr_add_ap-973 lldp enable:0,interval:0,holdtime:0,mgmt:0
+Aug 7 17:41:43 RuckusAP stamgr: stamgr_get_ap_limited_poe_function_info():the poe_model_string length is 0
+Aug 7 17:41:43 RuckusAP stamgr: stamgr_init_AP():AP[r510]:the limited function poe mode is 0,0,0,0,0,0,0,0,0
+Aug 7 17:41:43 RuckusAP stamgr: stamgr_init_AP():AP 18:7c:0b:3e:09:20 radio(6) default channelset_enable=1 channelset=1057 Line:2557
+Aug 7 17:41:43 RuckusAP stamgr: stamgr_init_AP():AP 18:7c:0b:3e:09:20 radio(5) default channelset_enable=0 channelset=0 Line:2557
+Aug 7 17:41:43 RuckusAP syslog: pid=1922[2951], send_alarm_2_email():email server is disabled
+Aug 7 17:41:43 RuckusAP syslog: eventd_to_syslog():AP[18:7c:0b:3e:09:20] joins with uptime [158] s and last disconnected reason [AP Restart : power cycle]
+Aug 7 17:41:43 RuckusAP ZD-APMgr: Warning! length of VAP from STAMGR is less than one VAP data, data_len= 0 one_vap_len= 607
+Aug 7 17:41:43 RuckusAP ZD-APMgr: ? AC sends time sync message to AP
+Aug 7 17:41:43 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:43 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:43 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6866
+Aug 7 17:41:43 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:43 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:43 RuckusAP syslog: pid=1922[3240], icxd_wait_until_sys_ready():ICXD: System is Ready! Done.
+Aug 7 17:41:43 RuckusAP syslog: pid=1922[3240], icxd_zdip_changed():ICXD: ZD listener IP change from "" to "192.168.86.54"
+Aug 7 17:41:44 RuckusAP kernel: [ 158.317447] ol_ath_vap_start : OL vap_start +, wlan0 freq = 2412
+Aug 7 17:41:44 RuckusAP kernel: [ 158.317499] [2023/8/7 16:41:44] wmi_unified_vdev_start_send for vap 0 chan 2412
+Aug 7 17:41:44 RuckusAP kernel: [ 158.317517] OL vap_start -
+Aug 7 17:41:44 RuckusAP kernel: [ 158.532011] [2023/8/7 16:41:44] wmi_unified_vdev_up_send for vap 0
+Aug 7 17:41:44 RuckusAP kernel: [ 158.532042] UP CMD for wlan0 vap 0
+Aug 7 17:41:44 RuckusAP kernel: [ 158.532129] wmi_unified_pdev_tpc_config_event_handler 12986 scn->txpower_scale 0 scn->max_tx_power 46 ic->ic_txpowlimit 46
+Aug 7 17:41:44 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:44 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:44 RuckusAP kernel: [ 158.827583] Route found: xmitdev=br0, nexthop=192.168.86.55, saddr=192.168.86.54, pmtu=1500
+Aug 7 17:41:44 RuckusAP kernel: [ 158.827609] Neighbour found: nexthopmac=18:7c:0b:3e:09:20
+Aug 7 17:41:44 RuckusAP syslog: eventd_to_syslog():AP[18:7c:0b:3e:09:20] cold boot successfully
+Aug 7 17:41:44 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:44 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:44 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6998
+Aug 7 17:41:44 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:44 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:44 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8664
+Aug 7 17:41:44 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:44 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:44 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8376
+Aug 7 17:41:44 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:44 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:45 RuckusAP kernel: [ 160.079170] ieee80211_ioctl_setparam:4042 Setting Join Ignore timeout:0 ms dev:wlan1
+Aug 7 17:41:45 RuckusAP kernel: [ 160.079234] ieee80211_ioctl_setparam 4082 Setting Join Accept Timeout:0 ms dev:wlan1
+Aug 7 17:41:44 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8280
+Aug 7 17:41:45 RuckusAP kernel: [ 160.079342] ieee80211_ioctl_setparam 4091 Setting Join Ignore Threshold:0 dev:wlan1
+Aug 7 17:41:45 RuckusAP kernel: [ 160.079438] ieee80211_ioctl_setparam:3988 Seting Probe/Auth/Assoc RSSI Threshold:0 dBm dev:wlan1
+Aug 7 17:41:44 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:44 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:44 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8376
+Aug 7 17:41:44 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:44 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:44 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8376
+Aug 7 17:41:44 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:44 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:44 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6936
+Aug 7 17:41:45 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:45 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:45 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 9576
+Aug 7 17:41:45 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:45 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:45 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8736
+Aug 7 17:41:45 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:45 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:45 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 9096
+Aug 7 17:41:45 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:45 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:45 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6936
+Aug 7 17:41:45 RuckusAP ZD-APMgr: Cannot notify kernel for Upd AP Param 192.168.86.53(12225) event, -- No such file or directory(2)
+Aug 7 17:41:45 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:45 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:45 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6936
+Aug 7 17:41:45 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:45 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:45 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6936
+Aug 7 17:41:45 RuckusAP ZD-APMgr: lbs url:,port:0,venue:
+Aug 7 17:41:45 RuckusAP ZD-APMgr: lwapp_notify_stamgr_add_ap-973 lldp enable:0,interval:0,holdtime:0,mgmt:0
+Aug 7 17:41:45 RuckusAP stamgr: stamgr_get_ap_limited_poe_function_info():the poe_model_string length is 0
+Aug 7 17:41:45 RuckusAP stamgr: stamgr_init_AP():AP[r510]:the limited function poe mode is 0,0,0,0,0,0,0,0,0
+Aug 7 17:41:45 RuckusAP stamgr: stamgr_init_AP():AP 18:7c:0b:3e:05:00 radio(6) default channelset_enable=1 channelset=1057 Line:2557
+Aug 7 17:41:45 RuckusAP stamgr: stamgr_init_AP():AP 18:7c:0b:3e:05:00 radio(5) default channelset_enable=0 channelset=0 Line:2557
+Aug 7 17:41:45 RuckusAP ZD-APMgr: Warning! length of VAP from STAMGR is less than one VAP data, data_len= 0 one_vap_len= 607
+Aug 7 17:41:45 RuckusAP ZD-APMgr: ? AC sends time sync message to AP
+Aug 7 17:41:45 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:45 RuckusAP kernel: [ 160.081673] ol_ath_vap_start : OL vap_start +, wlan1 freq = 2412
+Aug 7 17:41:45 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:45 RuckusAP kernel: [ 160.081720] [2023/8/7 16:41:45] wmi_unified_vdev_start_send for vap 1 chan 2412
+Aug 7 17:41:45 RuckusAP kernel: [ 160.081737] OL vap_start -
+Aug 7 17:41:45 RuckusAP syslog: pid=1922[2951], send_alarm_2_email():email server is disabled
+Aug 7 17:41:45 RuckusAP syslog: eventd_to_syslog():AP[18:7c:0b:3e:05:00] joins with uptime [139] s and last disconnected reason [Join Fail]
+Aug 7 17:41:45 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6866
+Aug 7 17:41:45 RuckusAP APMgr@RuckusAP: Succeeded to set vap VLAN traffic class.
+Aug 7 17:41:45 RuckusAP kernel: [ 160.077994] check!set_rrm: value=0, rrm_enabled=0x0
+Aug 7 17:41:45 RuckusAP kernel: [ 160.083908] [2023/8/7 16:41:45] wmi_unified_vdev_up_send for vap 1
+Aug 7 17:41:45 RuckusAP kernel: [ 160.083951] UP CMD for wlan1 vap 1
+Aug 7 17:41:45 RuckusAP kernel: [ 160.084383] wmi_unified_pdev_tpc_config_event_handler 12986 scn->txpower_scale 0 scn->max_tx_power 46 ic->ic_txpowlimit 46
+Aug 7 17:41:45 RuckusAP kernel: [ 160.085794] ol_ath_set_bssprio:14188, vap 1c:3a:60:76:6b:48, priority 1, class prio map 0x6040200 vdev_id 1 vo_txop_limit_us(0) high_cnt(2) low_cnt(1)
+Aug 7 17:41:45 RuckusAP kernel: [ 160.086246] [2023/8/7 16:41:45] wmi_unified_vdev_stop_send for vap 1
+Aug 7 17:41:45 RuckusAP kernel: [ 160.113375] [2023/8/7 16:41:45] wmi_unified_vdev_down_send for vap 1
+Aug 7 17:41:45 RuckusAP kernel: [ 160.115527] ol_ath_vap_start : OL vap_start +, wlan1 freq = 2412
+Aug 7 17:41:45 RuckusAP kernel: [ 160.115568] [2023/8/7 16:41:45] wmi_unified_vdev_start_send for vap 1 chan 2412
+Aug 7 17:41:45 RuckusAP kernel: [ 160.115584] OL vap_start -
+Aug 7 17:41:45 RuckusAP kernel: [ 160.117102] device wlan1 entered promiscuous mode
+Aug 7 17:41:45 RuckusAP kernel: [ 160.117656] br0: port 5(wlan1) entered forwarding state (apmgr,1287)
+Aug 7 17:41:45 RuckusAP kernel: [ 160.117729] br0: port 5(wlan1) entered forwarding state (apmgr,1287)
+Aug 7 17:41:45 RuckusAP mDNSResponder: mDNS_RegisterInterface: Error! Tried to register a NetworkInterfaceInfo 169.254.17.13 with invalid mask 0.0.0.0
+Aug 7 17:41:45 RuckusAP mDNSResponder: mDNS_RegisterInterface: Error! Tried to register a NetworkInterfaceInfo 169.254.17.12 with invalid mask 0.0.0.0
+Aug 7 17:41:46 RuckusAP kernel: [ 160.165915] ol_ath_vap_start : OL vap_start +, wlan1 freq = 2412
+Aug 7 17:41:46 RuckusAP kernel: [ 160.165959] [2023/8/7 16:41:46] wmi_unified_vdev_start_send for vap 1 chan 2412
+Aug 7 17:41:46 RuckusAP kernel: [ 160.165977] OL vap_start -
+Aug 7 17:41:46 RuckusAP kernel: [ 160.168181] [2023/8/7 16:41:46] wmi_unified_vdev_up_send for vap 1
+Aug 7 17:41:46 RuckusAP kernel: [ 160.168214] UP CMD for wlan1 vap 1
+Aug 7 17:41:46 RuckusAP kernel: [ 160.168435] wmi_unified_pdev_tpc_config_event_handler 12986 scn->txpower_scale 0 scn->max_tx_power 46 ic->ic_txpowlimit 46
+Aug 7 17:41:46 RuckusAP hostapd: IEEE 802.11: Line 2: unknown configuration item 'TIMEZONE'
+Aug 7 17:41:46 RuckusAP APMgr@RuckusAP: Failed to call rsms_hotspot_ng_ioctl_get:26 system call error
+Aug 7 17:41:46 RuckusAP APMgr@RuckusAP: wlan0 br_dnat setting is the same as current value, bypass.
+Aug 7 17:41:46 RuckusAP kernel: [ 160.196258] net80211_tac_cfg_sta_set_param(): set station 68:ff:7b:b9:6f:b4 vlan_id = 1
+Aug 7 17:41:46 RuckusAP kernel: [ 160.199363] su bfee 0 mu bfee 0 su bfer 1 mu bfer 0 impl bf 0 sounding dim 1
+Aug 7 17:41:46 RuckusAP kernel: [ 160.203162] ieee80211_ioctl_setparam:3988 Seting Probe/Auth/Assoc RSSI Threshold:0 dBm dev:wlan32
+Aug 7 17:41:46 RuckusAP kernel: [ 160.203376] ieee80211_ioctl_setparam:4006 Seting Auth RSSI Threshold:0 dBm dev:wlan32
+Aug 7 17:41:46 RuckusAP kernel: [ 160.204324] ieee80211_ioctl_setparam 4082 Setting Join Accept Timeout:0 ms dev:wlan32
+Aug 7 17:41:46 RuckusAP kernel: [ 160.203880] ieee80211_ioctl_setparam:4024 Seting Assoc RSSI Threshold:0 dBm dev:wlan32
+Aug 7 17:41:46 RuckusAP kernel: [ 160.204031] ieee80211_ioctl_setparam:4042 Setting Join Ignore timeout:0 ms dev:wlan32
+Aug 7 17:41:46 RuckusAP kernel: [ 160.204173] ieee80211_ioctl_setparam 4091 Setting Join Ignore Threshold:0 dev:wlan32
+Aug 7 17:41:46 RuckusAP kernel: [ 160.204746] ol_ath_set_bssprio:14188, vap 1c:3a:60:36:6b:4c, priority 1, class prio map 0x6040200 vdev_id 0 vo_txop_limit_us(0) high_cnt(1) low_cnt(1)
+Aug 7 17:41:46 RuckusAP APMgr@RuckusAP: AVP, ifname = wlan32, avp_en = 0
+Aug 7 17:41:46 RuckusAP avpd[902]: __wificalling_intf_del: 996: Interface: wlan32 not found
+Aug 7 17:41:46 RuckusAP APMgr@RuckusAP: url, ifname = wlan32, url_en = 0
+Aug 7 17:41:46 RuckusAP APMgr@RuckusAP: url, ifname = wlan32, if_index = 0, url_uuid = id=0, en = 0
+Aug 7 17:41:46 RuckusAP APMgr@RuckusAP: client flow log, ifname = wlan32, flowlog_en = 0
+Aug 7 17:41:46 RuckusAP kernel: [ 160.257488] net80211_tac_cfg_sta_set_param(): set station 94:b9:7e:14:e2:9e vlan_id = 1
+Aug 7 17:41:47 RuckusAP kernel: [ 160.529655] FWLOG: [178935] RATE: ChainMask 1, peer_mac 6f:b4, phymode 5, ni_flags 0x00041006, vht_mcs_set 0x0000, ht_mcs_set 0x00ff, legacy_rate_set 0x2bb00
+Aug 7 17:41:47 RuckusAP kernel: [ 160.529692] FWLOG: [178944] RATE: ChainMask 1, peer_mac e2:9e, phymode 0, ni_flags 0x00040004, vht_mcs_set 0x0000, ht_mcs_set 0x0000, legacy_rate_set 0x2bbd9
+Aug 7 17:41:47 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:47 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:47 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:47 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:47 RuckusAP kernel: [ 160.935198] Route found: xmitdev=br0, nexthop=192.168.86.53, saddr=192.168.86.54, pmtu=1500
+Aug 7 17:41:47 RuckusAP kernel: [ 160.935224] Neighbour found: nexthopmac=18:7c:0b:3e:05:00
+Aug 7 17:41:47 RuckusAP syslog: eventd_to_syslog():AP[18:7c:0b:3e:05:00] cold boot successfully
+Aug 7 17:41:47 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:47 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:47 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6998
+Aug 7 17:41:47 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:47 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:47 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8664
+Aug 7 17:41:47 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:47 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:47 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:47 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:47 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8376
+Aug 7 17:41:47 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:47 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:47 RuckusAP kernel: [ 161.119294] br0: port 5(wlan1) entered forwarding state (swapper/3,0)
+Aug 7 17:41:47 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8280
+Aug 7 17:41:47 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:47 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:47 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:47 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:47 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8376
+Aug 7 17:41:47 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:47 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:47 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8376
+Aug 7 17:41:47 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:47 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:47 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6936
+Aug 7 17:41:47 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:47 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:47 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 9576
+Aug 7 17:41:47 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:47 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:47 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 8736
+Aug 7 17:41:47 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:47 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:47 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 9096
+Aug 7 17:41:47 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:47 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:47 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:47 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:47 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6936
+Aug 7 17:41:47 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:47 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:47 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6936
+Aug 7 17:41:47 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:41:47 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:41:47 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6936
+Aug 7 17:41:48 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:48 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:49 RuckusAP APMgr@RuckusAP: Succeeded to set vap VLAN traffic class.
+Aug 7 17:41:49 RuckusAP stainfo[3580]: sta_info_detection_msg_handler(738): DHCP Option 12 (hostname) is not present for 68:ff:7b:b9:6f:b4
+Aug 7 17:41:49 RuckusAP stainfo[3580]: sta_info_detection_msg_handler(741): Sending hostname IOCTL as MAC address for 68:ff:7b:b9:6f:b4return value:0
+Aug 7 17:41:49 RuckusAP kernel: [ 163.316314] ieee80211_ioctl_setparam 4082 Setting Join Accept Timeout:0 ms dev:wlan32
+Aug 7 17:41:49 RuckusAP kernel: [ 163.316397] ieee80211_ioctl_setparam 4091 Setting Join Ignore Threshold:0 dev:wlan32
+Aug 7 17:41:49 RuckusAP kernel: [ 163.316485] ieee80211_ioctl_setparam:3988 Seting Probe/Auth/Assoc RSSI Threshold:0 dBm dev:wlan32
+Aug 7 17:41:49 RuckusAP kernel: [ 163.315334] check!set_rrm: value=0, rrm_enabled=0x0
+Aug 7 17:41:49 RuckusAP kernel: [ 163.316212] ieee80211_ioctl_setparam:4042 Setting Join Ignore timeout:0 ms dev:wlan32
+Aug 7 17:41:49 RuckusAP kernel: [ 163.316925] ol_ath_cwm_init: mode 4 extoffset 1 protmode 0 protspacing 0 cw_enable 0
+Aug 7 17:41:49 RuckusAP kernel: [ 163.316925]
+Aug 7 17:41:49 RuckusAP kernel: [ 163.317041] wmi_unified_pdev_tpc_config_event_handler 12986 scn->txpower_scale 0 scn->max_tx_power 63 ic->ic_txpowlimit 42
+Aug 7 17:41:49 RuckusAP kernel: [ 163.317149] wmi_unified_pdev_tpc_config_event_handler 12986 scn->txpower_scale 0 scn->max_tx_power 63 ic->ic_txpowlimit 42
+Aug 7 17:41:49 RuckusAP kernel: [ 163.320917] ol_ath_set_bssprio:14188, vap 1c:3a:60:36:6b:4c, priority 1, class prio map 0x6040200 vdev_id 0 vo_txop_limit_us(0) high_cnt(1) low_cnt(1)
+Aug 7 17:41:49 RuckusAP kernel: [ 163.321407] ol_ath_cwm_init: mode 4 extoffset 1 protmode 0 protspacing 0 cw_enable 0
+Aug 7 17:41:49 RuckusAP kernel: [ 163.321407] ******** ieee80211_cancel_scan,857: cancel scan
+Aug 7 17:41:49 RuckusAP kernel: [ 163.321505] [2023/8/7 16:41:49] wmi_unified_vdev_stop_send for vap 0
+Aug 7 17:41:49 RuckusAP kernel: [ 163.348571] [2023/8/7 16:41:49] wmi_unified_vdev_down_send for vap 0
+Aug 7 17:41:49 RuckusAP kernel: [ 163.350024] ol_ath_cwm_init: mode 4 extoffset 1 protmode 0 protspacing 0 cw_enable 0
+Aug 7 17:41:49 RuckusAP kernel: [ 163.350024]
+Aug 7 17:41:49 RuckusAP kernel: [ 163.350153] wmi_unified_pdev_tpc_config_event_handler 12986 scn->txpower_scale 0 scn->max_tx_power 42 ic->ic_txpowlimit 42
+Aug 7 17:41:49 RuckusAP kernel: [ 163.350198] wmi_unified_pdev_tpc_config_event_handler 12986 scn->txpower_scale 0 scn->max_tx_power 42 ic->ic_txpowlimit 42
+Aug 7 17:41:49 RuckusAP kernel: [ 163.354144] device wlan32 entered promiscuous mode
+Aug 7 17:41:49 RuckusAP kernel: [ 163.354756] br0: port 6(wlan32) entered forwarding state (apmgr,1287)
+Aug 7 17:41:49 RuckusAP kernel: [ 163.354826] br0: port 6(wlan32) entered forwarding state (apmgr,1287)
+Aug 7 17:41:49 RuckusAP mDNSResponder: mDNS_RegisterInterface: Error! Tried to register a NetworkInterfaceInfo 169.254.17.13 with invalid mask 0.0.0.0
+Aug 7 17:41:49 RuckusAP mDNSResponder: mDNS_RegisterInterface: Error! Tried to register a NetworkInterfaceInfo 169.254.17.12 with invalid mask 0.0.0.0
+Aug 7 17:41:49 RuckusAP hostapd: IEEE 802.11: Line 2: unknown configuration item 'TIMEZONE'
+Aug 7 17:41:49 RuckusAP APMgr@RuckusAP: wlan0 br_dnat setting is the same as current value, bypass.
+Aug 7 17:41:49 RuckusAP last message repeated 2 times
+Aug 7 17:41:49 RuckusAP kernel: [ 163.429466] su bfee 0 mu bfee 0 su bfer 1 mu bfer 0 impl bf 0 sounding dim 1
+Aug 7 17:41:49 RuckusAP kernel: [ 163.433548] ieee80211_ioctl_setparam:3988 Seting Probe/Auth/Assoc RSSI Threshold:0 dBm dev:wlan33
+Aug 7 17:41:49 RuckusAP kernel: [ 163.433663] ieee80211_ioctl_setparam:4006 Seting Auth RSSI Threshold:0 dBm dev:wlan33
+Aug 7 17:41:49 RuckusAP kernel: [ 163.434434] ieee80211_ioctl_setparam:4024 Seting Assoc RSSI Threshold:0 dBm dev:wlan33
+Aug 7 17:41:49 RuckusAP kernel: [ 163.434614] ieee80211_ioctl_setparam:4042 Setting Join Ignore timeout:0 ms dev:wlan33
+Aug 7 17:41:49 RuckusAP kernel: [ 163.434769] ieee80211_ioctl_setparam 4091 Setting Join Ignore Threshold:0 dev:wlan33
+Aug 7 17:41:49 RuckusAP kernel: [ 163.434911] ieee80211_ioctl_setparam 4082 Setting Join Accept Timeout:0 ms dev:wlan33
+Aug 7 17:41:49 RuckusAP kernel: [ 163.435367] ol_ath_set_bssprio:14188, vap 1c:3a:60:76:6b:4c, priority 1, class prio map 0x6040200 vdev_id 1 vo_txop_limit_us(0) high_cnt(2) low_cnt(1)
+Aug 7 17:41:49 RuckusAP kernel: [ 163.441724] net80211_tac_cfg_sta_set_param(): set station 64:52:99:bd:31:a7 vlan_id = 1
+Aug 7 17:41:49 RuckusAP stainfo[3580]: sta_info_detection_msg_handler(738): DHCP Option 12 (hostname) is not present for 64:52:99:bd:31:a7
+Aug 7 17:41:49 RuckusAP stainfo[3580]: sta_info_detection_msg_handler(741): Sending hostname IOCTL as MAC address for 64:52:99:bd:31:a7return value:0
+Aug 7 17:41:49 RuckusAP APMgr@RuckusAP: AVP, ifname = wlan33, avp_en = 0
+Aug 7 17:41:49 RuckusAP avpd[902]: __wificalling_intf_del: 996: Interface: wlan33 not found
+Aug 7 17:41:49 RuckusAP APMgr@RuckusAP: url, ifname = wlan33, url_en = 0
+Aug 7 17:41:49 RuckusAP APMgr@RuckusAP: url, ifname = wlan33, if_index = 0, url_uuid = id=0, en = 0
+Aug 7 17:41:49 RuckusAP APMgr@RuckusAP: client flow log, ifname = wlan33, flowlog_en = 0
+Aug 7 17:41:50 RuckusAP kernel: [ 163.528118] FWLOG: [182171] RATE: ChainMask 1, peer_mac 31:a7, phymode 5, ni_flags 0x00201006, vht_mcs_set 0x0000, ht_mcs_set 0x00ff, legacy_rate_set 0x2c94c
+Aug 7 17:41:50 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:50 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:50 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:50 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:50 RuckusAP kernel: [ 164.357286] br0: port 6(wlan32) entered forwarding state (swapper/3,0)
+Aug 7 17:41:50 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:50 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:51 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:51 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:53 RuckusAP kernel: [ 166.552609] check!set_rrm: value=0, rrm_enabled=0x0
+Aug 7 17:41:51 RuckusAP kernel: [ 164.677464] ol_ath_vap_start : OL vap_start +, wlan32 freq = 5200
+Aug 7 17:41:53 RuckusAP kernel: [ 166.553539] ieee80211_ioctl_setparam:4042 Setting Join Ignore timeout:0 ms dev:wlan33
+Aug 7 17:41:53 RuckusAP kernel: [ 166.553603] ieee80211_ioctl_setparam 4082 Setting Join Accept Timeout:0 ms dev:wlan33
+Aug 7 17:41:51 RuckusAP kernel: [ 164.677496] wmi_unified_vdev_create_start_cmd:427 band center freq1 5210, freq2 0
+Aug 7 17:41:53 RuckusAP kernel: [ 166.553662] ieee80211_ioctl_setparam 4091 Setting Join Ignore Threshold:0 dev:wlan33
+Aug 7 17:41:53 RuckusAP kernel: [ 166.553738] ieee80211_ioctl_setparam:3988 Seting Probe/Auth/Assoc RSSI Threshold:0 dBm dev:wlan33
+Aug 7 17:41:51 RuckusAP kernel: [ 164.677523] [2023/8/7 16:41:51] wmi_unified_vdev_start_send for vap 0 chan 5200
+Aug 7 17:41:51 RuckusAP kernel: [ 164.677539] OL vap_start -
+Aug 7 17:41:51 RuckusAP kernel: [ 164.863677] [2023/8/7 16:41:51] wmi_unified_vdev_up_send for vap 0
+Aug 7 17:41:51 RuckusAP kernel: [ 164.863734] UP CMD for wlan32 vap 0
+Aug 7 17:41:51 RuckusAP kernel: [ 164.863875] wmi_unified_pdev_tpc_config_event_handler 12986 scn->txpower_scale 0 scn->max_tx_power 42 ic->ic_txpowlimit 42
+Aug 7 17:41:52 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:52 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:52 RuckusAP APMgr@RuckusAP: Succeeded to set vap VLAN traffic class.
+Aug 7 17:41:53 RuckusAP kernel: [ 166.555463] ol_ath_vap_start : OL vap_start +, wlan33 freq = 5200
+Aug 7 17:41:53 RuckusAP kernel: [ 166.555494] wmi_unified_vdev_create_start_cmd:427 band center freq1 5210, freq2 0
+Aug 7 17:41:53 RuckusAP kernel: [ 166.555520] [2023/8/7 16:41:53] wmi_unified_vdev_start_send for vap 1 chan 5200
+Aug 7 17:41:53 RuckusAP kernel: [ 166.555536] OL vap_start -
+Aug 7 17:41:53 RuckusAP kernel: [ 166.557198] [2023/8/7 16:41:53] wmi_unified_vdev_up_send for vap 1
+Aug 7 17:41:53 RuckusAP kernel: [ 166.557238] UP CMD for wlan33 vap 1
+Aug 7 17:41:53 RuckusAP kernel: [ 166.557462] wmi_unified_pdev_tpc_config_event_handler 12986 scn->txpower_scale 0 scn->max_tx_power 42 ic->ic_txpowlimit 42
+Aug 7 17:41:53 RuckusAP kernel: [ 166.558064] ol_ath_set_bssprio:14188, vap 1c:3a:60:76:6b:4c, priority 1, class prio map 0x6040200 vdev_id 1 vo_txop_limit_us(0) high_cnt(2) low_cnt(1)
+Aug 7 17:41:53 RuckusAP kernel: [ 166.558579] [2023/8/7 16:41:53] wmi_unified_vdev_stop_send for vap 1
+Aug 7 17:41:53 RuckusAP kernel: [ 166.585637] [2023/8/7 16:41:53] wmi_unified_vdev_down_send for vap 1
+Aug 7 17:41:53 RuckusAP kernel: [ 166.587248] ol_ath_vap_start : OL vap_start +, wlan33 freq = 5200
+Aug 7 17:41:53 RuckusAP kernel: [ 166.587315] wmi_unified_vdev_create_start_cmd:427 band center freq1 5210, freq2 0
+Aug 7 17:41:53 RuckusAP kernel: [ 166.587363] [2023/8/7 16:41:53] wmi_unified_vdev_start_send for vap 1 chan 5200
+Aug 7 17:41:53 RuckusAP kernel: [ 166.587383] OL vap_start -
+Aug 7 17:41:53 RuckusAP kernel: [ 166.588941] device wlan33 entered promiscuous mode
+Aug 7 17:41:53 RuckusAP kernel: [ 166.589519] br0: port 7(wlan33) entered forwarding state (apmgr,1287)
+Aug 7 17:41:53 RuckusAP kernel: [ 166.589580] br0: port 7(wlan33) entered forwarding state (apmgr,1287)
+Aug 7 17:41:53 RuckusAP mDNSResponder: mDNS_RegisterInterface: Error! Tried to register a NetworkInterfaceInfo 169.254.17.13 with invalid mask 0.0.0.0
+Aug 7 17:41:53 RuckusAP mDNSResponder: mDNS_RegisterInterface: Error! Tried to register a NetworkInterfaceInfo 169.254.17.12 with invalid mask 0.0.0.0
+Aug 7 17:41:53 RuckusAP kernel: [ 166.638470] ol_ath_vap_start : OL vap_start +, wlan33 freq = 5200
+Aug 7 17:41:53 RuckusAP kernel: [ 166.638503] wmi_unified_vdev_create_start_cmd:427 band center freq1 5210, freq2 0
+Aug 7 17:41:53 RuckusAP kernel: [ 166.638530] [2023/8/7 16:41:53] wmi_unified_vdev_start_send for vap 1 chan 5200
+Aug 7 17:41:53 RuckusAP kernel: [ 166.638545] OL vap_start -
+Aug 7 17:41:53 RuckusAP kernel: [ 166.640405] UP CMD for wlan33 vap 1
+Aug 7 17:41:53 RuckusAP kernel: [ 166.640366] [2023/8/7 16:41:53] wmi_unified_vdev_up_send for vap 1
+Aug 7 17:41:53 RuckusAP kernel: [ 166.640603] wmi_unified_pdev_tpc_config_event_handler 12986 scn->txpower_scale 0 scn->max_tx_power 42 ic->ic_txpowlimit 42
+Aug 7 17:41:53 RuckusAP hostapd: IEEE 802.11: Line 2: unknown configuration item 'TIMEZONE'
+Aug 7 17:41:53 RuckusAP APMgr@RuckusAP: wlan0 br_dnat setting is the same as current value, bypass.
+Aug 7 17:41:53 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:53 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:53 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:53 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:54 RuckusAP kernel: [ 167.591285] br0: port 7(wlan33) entered forwarding state (swapper/3,0)
+Aug 7 17:41:54 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:54 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:54 RuckusAP APMgr@RuckusAP: wlan0 br_dnat setting is the same as current value, bypass.
+Aug 7 17:41:54 RuckusAP kernel: [ 167.668721] net80211_tac_cfg_sta_set_param(): set station 74:40:be:81:c4:93 vlan_id = 1
+Aug 7 17:41:54 RuckusAP stamgr: tac_del_arp:dev=br0 SIOCDARP failed, errno=6
+Aug 7 17:41:54 RuckusAP APMgr@RuckusAP: wlan0 br_dnat setting is the same as current value, bypass.
+Aug 7 17:41:54 RuckusAP Eved: STA-DISASSOC-REASON [ieee80211_input(),2560,received IEEE80211_FC0_SUBTYPE_DISASSOC] 74:40:be:81:c4:93 rx_rssi=50,ack_rssi=0,reason=8,freq=2412,chan=1,rx pkt,byte;tx pkt,byte=(0,0,0,0)
+Aug 7 17:41:54 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:54 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:54 RuckusAP channel-wifi1: Found channel 40 : 5200
+Aug 7 17:41:54 RuckusAP channel-wifi0: Found channel 2 : 2417
+Aug 7 17:41:54 RuckusAP channel-wifi1: Found channel 44 : 5220
+Aug 7 17:41:54 RuckusAP channel-wifi0: Found channel 3 : 2422
+Aug 7 17:41:54 RuckusAP channel-wifi1: Found channel 48 : 5240
+Aug 7 17:41:54 RuckusAP channel-wifi0: Found channel 4 : 2427
+Aug 7 17:41:54 RuckusAP channel-wifi1: Found channel 149 : 5745
+Aug 7 17:41:54 RuckusAP channel-wifi0: Found channel 5 : 2432
+Aug 7 17:41:54 RuckusAP channel-wifi1: Found channel 153 : 5765
+Aug 7 17:41:54 RuckusAP channel-wifi0: Found channel 6 : 2437
+Aug 7 17:41:54 RuckusAP channel-wifi1: Found channel 157 : 5785
+Aug 7 17:41:54 RuckusAP channel-wifi0: Found channel 7 : 2442
+Aug 7 17:41:54 RuckusAP channel-wifi0: Found channel 8 : 2447
+Aug 7 17:41:54 RuckusAP channel-wifi0: Found channel 9 : 2452
+Aug 7 17:41:54 RuckusAP channel-wifi0: Found channel 10 : 2457
+Aug 7 17:41:54 RuckusAP channel-wifi0: Found channel 11 : 2462
+Aug 7 17:41:54 RuckusAP channel-wifi0: Found 11 valid channels
+Aug 7 17:41:54 RuckusAP channel-wifi0: Pausing 1 minute (target VAP wait related) for 1c:3a:60:36:6b:48
+Aug 7 17:41:54 RuckusAP channel-wifi1: Found channel 161 : 5805
+Aug 7 17:41:54 RuckusAP channel-wifi1: Found channel 165 : 5825
+Aug 7 17:41:54 RuckusAP channel-wifi1: Found 9 valid channels
+Aug 7 17:41:54 RuckusAP channel-wifi1: Pausing 1 minute (target VAP wait related) for 1c:3a:60:36:6b:4c
+Aug 7 17:41:54 RuckusAP kernel: [ 168.302493] v54cf: v54cf_open: inode=decfdc38, filp=de30ef00
+Aug 7 17:41:54 RuckusAP kernel: [ 168.302687] v54cf: v54cf_open: inode=decff8b8, filp=d8494840
+Aug 7 17:41:54 RuckusAP channel-wifi0: unable to load json state from himem (1)...
+Aug 7 17:41:54 RuckusAP channel-wifi0: channelfly has reset the hi-memory backup
+Aug 7 17:41:54 RuckusAP channel-wifi1: unable to load json state from himem (1)...
+Aug 7 17:41:54 RuckusAP channel-wifi1: channelfly has reset the hi-memory backup
+Aug 7 17:41:54 RuckusAP channel-wifi0: unable to open /tmp/channelfly-wifi0.json
+Aug 7 17:41:54 RuckusAP channel-wifi1: unable to open /tmp/channelfly-wifi1.json
+Aug 7 17:41:54 RuckusAP kernel: [ 168.304879] v54cf_proc_write: buf=reset wifi0
+Aug 7 17:41:54 RuckusAP kernel: [ 168.304879] , len=12
+Aug 7 17:41:54 RuckusAP kernel: [ 168.304912] v54cf_proc_write: cmd=reset, dev minor=0, val=0, buf=(null)
+Aug 7 17:41:54 RuckusAP kernel: [ 168.304978] v54cf_proc_write: buf=reset wifi1
+Aug 7 17:41:54 RuckusAP kernel: [ 168.304978] , len=12
+Aug 7 17:41:54 RuckusAP kernel: [ 168.305000] v54cf_proc_write: cmd=reset, dev minor=1, val=0, buf=(null)
+Aug 7 17:41:55 RuckusAP syslog: pid=1752[1752], monitor():FileCache synced
+Aug 7 17:41:55 RuckusAP kernel: [ 168.526044] FWLOG: [186920] RATE: ChainMask 1, peer_mac c4:93, phymode 5, ni_flags 0x00041006, vht_mcs_set 0x0000, ht_mcs_set 0x00ff, legacy_rate_set 0x2da37
+Aug 7 17:41:55 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:55 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:57 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:41:57 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:41:57 RuckusAP APMgr@RuckusAP: Failed to call rsms_hotspot_ng_ioctl_get:26 system call error
+Aug 7 17:41:57 RuckusAP kernel: [ 171.470813] net80211_tac_cfg_sta_set_param(): set station 5c:52:30:99:94:87 vlan_id = 1
+Aug 7 17:41:57 RuckusAP APMgr@RuckusAP: wlan32 br_dnat setting is the same as current value, bypass.
+Aug 7 17:41:58 RuckusAP kernel: [ 172.005121] FWLOG: [190816] RATE: ChainMask 3, peer_mac 94:87, phymode 10, ni_flags 0x06213006, vht_mcs_set 0x00fa, ht_mcs_set 0xffff, legacy_rate_set 0x2e96e
+Aug 7 17:41:58 RuckusAP APMgr@RuckusAP: wlan0 br_dnat setting is the same as current value, bypass.
+Aug 7 17:41:58 RuckusAP kernel: [ 172.066861] net80211_tac_cfg_sta_set_param(): set station 74:40:be:81:c4:93 vlan_id = 1
+Aug 7 17:41:58 RuckusAP APMgr@RuckusAP: wlan0 br_dnat setting is the same as current value, bypass.
+Aug 7 17:41:58 RuckusAP APMgr@RuckusAP: wlan32 br_dnat setting is the same as current value, bypass.
+Aug 7 17:41:58 RuckusAP kernel: [ 172.128711] net80211_tac_cfg_sta_set_param(): set station 2a:af:ad:01:ae:b9 vlan_id = 1
+Aug 7 17:41:58 RuckusAP APMgr@RuckusAP: wlan32 br_dnat setting is the same as current value, bypass.
+Aug 7 17:41:59 RuckusAP kernel: [ 172.524481] FWLOG: [191427] RATE: ChainMask 1, peer_mac c4:93, phymode 5, ni_flags 0x00041006, vht_mcs_set 0x0000, ht_mcs_set 0x00ff, legacy_rate_set 0x2ebd1
+Aug 7 17:41:59 RuckusAP stainfo[3580]: sta_info_detection_msg_handler(738): DHCP Option 12 (hostname) is not present for 2a:af:ad:01:ae:b9
+Aug 7 17:41:59 RuckusAP stainfo[3580]: sta_info_detection_msg_handler(741): Sending hostname IOCTL as MAC address for 2a:af:ad:01:ae:b9return value:0
+Aug 7 17:41:59 RuckusAP kernel: [ 173.004607] FWLOG: [191495] RATE: ChainMask 3, peer_mac ae:b9, phymode 10, ni_flags 0x06213006, vht_mcs_set 0x00fa, ht_mcs_set 0xffff, legacy_rate_set 0x2ec11
+Aug 7 17:42:00 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:42:00 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:42:00 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6910
+Aug 7 17:42:00 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:42:00 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:42:00 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6910
+Aug 7 17:42:00 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:42:00 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:42:00 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6910
+Aug 7 17:42:00 RuckusAP ZD-APMgr: --------lwapp_add_vendor_mdnsproxy_me-------834------
+Aug 7 17:42:00 RuckusAP ZD-APMgr: ----elmt_mdns->mdnsproxy = 0----cfg->bonjour_pcy = ----
+Aug 7 17:42:00 RuckusAP ZD-APMgr: lwapp_send_pkt(7154), sends packet out with length: 6910
+Aug 7 17:42:00 RuckusAP APMgr@RuckusAP: lwapp_proc_vendor_me: setting ip mode, before=1, now=1
+Aug 7 17:42:00 RuckusAP APMgr@RuckusAP: ?don't need to update avp_port_mapping.
+Aug 7 17:42:00 RuckusAP APMgr@RuckusAP: Update VAP 0, bimask = 0x00000000, upd_flag = 0x00000000, acl_update_flag = 0
+Aug 7 17:42:00 RuckusAP APMgr@RuckusAP: Update VAP 1, bimask = 0x00000000, upd_flag = 0x00000000, acl_update_flag = 0
+Aug 7 17:42:00 RuckusAP kernel: [ 173.790067] findchannel:1009 Found matching channel for chan(6) chanflag 0x10080 flags(0X10080)
+Aug 7 17:42:00 RuckusAP kernel: [ 173.790093] ol_ath_set_rx_sens_level:9282 Set Sensitivity Level :-92
+Aug 7 17:42:00 RuckusAP APMgr@RuckusAP: Update VAP 0, bimask = 0x00000000, upd_flag = 0x00000000, acl_update_flag = 0
+Aug 7 17:42:00 RuckusAP APMgr@RuckusAP: Update VAP 1, bimask = 0x00000000, upd_flag = 0x00000000, acl_update_flag = 0
+Aug 7 17:42:00 RuckusAP kernel: [ 173.794045] findchannel:1009 Found matching channel for chan(149) chanflag 0x1000100 flags(0X1000100)
+Aug 7 17:42:00 RuckusAP kernel: [ 173.794075] ol_ath_set_rx_sens_level:9282 Set Sensitivity Level :-92
+Aug 7 17:42:00 RuckusAP kernel: [ 173.801930] wmi_unified_pdev_tpc_config_event_handler 12986 scn->txpower_scale 0 scn->max_tx_power 63 ic->ic_txpowlimit 46
+Aug 7 17:42:00 RuckusAP kernel: [ 173.803179] wmi_unified_pdev_tpc_config_event_handler 12986 scn->txpower_scale 0 scn->max_tx_power 63 ic->ic_txpowlimit 42
+Aug 7 17:42:00 RuckusAP kernel: [ 174.004128] FWLOG: [193424] RATE: ChainMask 1, peer_mac 80:66, phymode 10, ni_flags 0x06203006, vht_mcs_set 0x00fe, ht_mcs_set 0x00ff, legacy_rate_set 0x9a650040
+Aug 7 17:42:00 RuckusAP APMgr@RuckusAP: wlan32 br_dnat setting is the same as current value, bypass.
+Aug 7 17:42:00 RuckusAP kernel: [ 174.044858] net80211_tac_cfg_sta_set_param(): set station e4:f0:42:61:80:66 vlan_id = 1
+Aug 7 17:42:00 RuckusAP APMgr@RuckusAP: wlan32 br_dnat setting is the same as current value, bypass.
+Aug 7 17:42:00 RuckusAP stainfo[3580]: sta_info_detection_msg_handler(738): DHCP Option 12 (hostname) is not present for 74:40:be:81:c4:93
+Aug 7 17:42:00 RuckusAP stainfo[3580]: sta_info_detection_msg_handler(741): Sending hostname IOCTL as MAC address for 74:40:be:81:c4:93return value:0
+Aug 7 17:42:00 RuckusAP Eved: STA-DISASSOC-REASON [ieee80211_input(),2547,received IEEE80211_FC0_SUBTYPE_DEAUTH] e4:f0:42:61:80:66 rx_rssi=43,ack_rssi=0,reason=36,freq=5200,chan=40,rx pkt,byte;tx pkt,byte=(0,0,0,0)
+Aug 7 17:42:01 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:42:01 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:42:02 RuckusAP kernel: [ 175.854816] wmi_unified_vdev_create_start_cmd:427 band center freq1 5775, freq2 0
+Aug 7 17:42:02 RuckusAP kernel: [ 175.854855] [2023/8/7 16:42:2] wmi_unified_vdev_restart_send for vap 0 chan 5745
+Aug 7 17:42:02 RuckusAP kernel: [ 175.854879] wmi_unified_vdev_create_start_cmd:427 band center freq1 5775, freq2 0
+Aug 7 17:42:02 RuckusAP kernel: [ 175.854898] [2023/8/7 16:42:2] wmi_unified_vdev_restart_send for vap 1 chan 5745
+Aug 7 17:42:02 RuckusAP Eved: wifi1: CHANNEL-CHANGE.indication: Channel (149)
+Aug 7 17:42:02 RuckusAP Eved: wifi0: CHANNEL-CHANGE.indication: Channel (6)
+Aug 7 17:42:02 RuckusAP kernel: [ 175.905800] [2023/8/7 16:42:2] wmi_unified_vdev_restart_send for vap 0 chan 2437
+Aug 7 17:42:02 RuckusAP kernel: [ 175.905853] [2023/8/7 16:42:2] wmi_unified_vdev_restart_send for vap 1 chan 2437
+Aug 7 17:42:02 RuckusAP kernel: [ 176.042706] [2023/8/7 16:42:2] wmi_unified_vdev_up_send for vap 0
+Aug 7 17:42:02 RuckusAP kernel: [ 176.042737] UP CMD for wlan32 vap 0
+Aug 7 17:42:02 RuckusAP kernel: [ 176.042855] wmi_unified_pdev_tpc_config_event_handler 12986 scn->txpower_scale 0 scn->max_tx_power 42 ic->ic_txpowlimit 42
+Aug 7 17:42:02 RuckusAP kernel: [ 176.044984] [2023/8/7 16:42:2] wmi_unified_vdev_up_send for vap 1
+Aug 7 17:42:02 RuckusAP kernel: [ 176.045010] UP CMD for wlan33 vap 1
+Aug 7 17:42:02 RuckusAP kernel: [ 176.045173] wmi_unified_pdev_tpc_config_event_handler 12986 scn->txpower_scale 0 scn->max_tx_power 42 ic->ic_txpowlimit 42
+Aug 7 17:42:02 RuckusAP kernel: [ 176.122658] [2023/8/7 16:42:2] wmi_unified_vdev_up_send for vap 0
+Aug 7 17:42:02 RuckusAP kernel: [ 176.122686] UP CMD for wlan0 vap 0
+Aug 7 17:42:02 RuckusAP kernel: [ 176.122808] wmi_unified_pdev_tpc_config_event_handler 12986 scn->txpower_scale 0 scn->max_tx_power 46 ic->ic_txpowlimit 46
+Aug 7 17:42:02 RuckusAP kernel: [ 176.125227] [2023/8/7 16:42:2] wmi_unified_vdev_up_send for vap 1
+Aug 7 17:42:02 RuckusAP kernel: [ 176.125258] UP CMD for wlan1 vap 1
+Aug 7 17:42:02 RuckusAP kernel: [ 176.125465] wmi_unified_pdev_tpc_config_event_handler 12986 scn->txpower_scale 0 scn->max_tx_power 46 ic->ic_txpowlimit 46
+Aug 7 17:42:02 RuckusAP mDNSResponder: mDNSResponder (Engineering Build) (Jun 15 2023 06:49:13) stopping
+Aug 7 17:42:02 RuckusAP mDNSResponder: mDNS_FinalExit failed to send goodbye for: 00D39590 01 50 _ruckus-unleashed._tcp.local. PTR Museum\032of\032Modem\032Art._ruckus-unleashed._tcp.local.
+Aug 7 17:42:02 RuckusAP rsmd[98]: mdnsproxy ....... [stopped] (0.096)
+Aug 7 17:42:02 RuckusAP rsmd[98]: mdnsproxy ....... [started] (0.025)
+Aug 7 17:42:03 RuckusAP APMgr@RuckusAP: wlan32 br_dnat setting is the same as current value, bypass.
+Aug 7 17:42:03 RuckusAP kernel: [ 176.932759] net80211_tac_cfg_sta_set_param(): set station e4:f0:42:24:34:4b vlan_id = 1
+Aug 7 17:42:03 RuckusAP APMgr@RuckusAP: wlan0 br_dnat setting is the same as current value, bypass.
+Aug 7 17:42:03 RuckusAP APMgr@RuckusAP: wlan32 br_dnat setting is the same as current value, bypass.
+Aug 7 17:42:03 RuckusAP kernel: [ 176.959946] net80211_tac_cfg_sta_set_param(): set station e4:f0:42:61:80:66 vlan_id = 1
+Aug 7 17:42:03 RuckusAP APMgr@RuckusAP: wlan0 br_dnat setting is the same as current value, bypass.
+Aug 7 17:42:03 RuckusAP kernel: [ 177.040038] FWLOG: [196378] RATE: ChainMask 1, peer_mac 34:4b, phymode 10, ni_flags 0x06203006, vht_mcs_set 0x00fe, ht_mcs_set 0x00ff, legacy_rate_set 0x2ff4b
+Aug 7 17:42:03 RuckusAP kernel: [ 177.521987] FWLOG: [196426] RATE: ChainMask 1, peer_mac 80:66, phymode 5, ni_flags 0x00201006, vht_mcs_set 0x0000, ht_mcs_set 0x00ff, legacy_rate_set 0x2ff67
+Aug 7 17:42:06 RuckusAP syslog: pid=1922[1922], doJobEx():worker: action:[cleanup-response], Done.
+Aug 7 17:42:08 RuckusAP ZD-APMgr: IPC_thread rcv ping from TACMON
+Aug 7 17:42:09 RuckusAP mDNSResponder: mDNSResponder (Engineering Build) (Jun 15 2023 06:49:13) starting
+Aug 7 17:42:09 RuckusAP mDNSResponder: mDNS_RegisterInterface: Error! Tried to register a NetworkInterfaceInfo 169.254.17.13 with invalid mask 0.0.0.0
+Aug 7 17:42:09 RuckusAP mDNSResponder: mDNS_RegisterInterface: Error! Tried to register a NetworkInterfaceInfo 169.254.17.12 with invalid mask 0.0.0.0
+Aug 7 17:42:09 RuckusAP mDNSResponder: mDNS_AddDNSServer: Lock not held! mDNS_busy (0) mDNS_reentrancy (0)
+Aug 7 17:42:09 RuckusAP mDNSResponder: MAC Str IS 1C:3A:60:36:6B:40 V6^R
+Aug 7 17:42:09 RuckusAP mDNSResponder: Global: MAC IS 1c:3a:60:36:6b:40
+Aug 7 17:42:09 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:42:09 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:42:09 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:42:09 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:42:10 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:42:10 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:42:10 RuckusAP mDNSResponder: Bad service type in RuckusAP._ruckus-unleashed._tcp.local. Application protocol name must be underscore plus 1-15 characters. See <http://www.dns-sd.org/ServiceTypes.html>
+Aug 7 17:42:10 RuckusAP mDNSResponder: Bad service type in ._ruckus-unleashed._tcp.local. Application protocol name must be underscore plus 1-15 characters. See <http://www.dns-sd.org/ServiceTypes.html>
+Aug 7 17:42:10 RuckusAP mDNSResponder: Bad service type in RuckusAP._ruckus-unleashed._tcp.local. Application protocol name must be underscore plus 1-15 characters. See <http://www.dns-sd.org/ServiceTypes.html>
+Aug 7 17:42:10 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:42:10 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:42:10 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:42:10 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:42:10 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:42:10 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:42:10 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:42:10 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:42:11 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:42:11 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:42:11 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:42:11 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:42:12 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:42:12 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:42:12 RuckusAP stamgr: tac_del_arp:dev=br0 SIOCDARP failed, errno=6
+Aug 7 17:42:13 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:42:13 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:42:14 RuckusAP stamgr: tac_del_arp:dev=br0 SIOCDARP failed, errno=6
+Aug 7 17:42:17 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 99 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 169.254.17.11/br0/10
+Aug 7 17:42:17 RuckusAP mDNSResponder: mDNSPlatformSendUDP got error 101 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface FE80:0000:0000:0000:0000:1C3A:6036:6B41/br6/13
+Aug 7 17:42:18 RuckusAP kernel: [ 192.481303] Route found: xmitdev=lo, nexthop=192.168.86.54, saddr=192.168.86.54, pmtu=65535
+Aug 7 17:42:18 RuckusAP kernel: [ 192.481331] Neighbour found: nexthopmac=00:00:00:00:00:00
+Aug 7 17:42:23 RuckusAP syslog: pid=4103[4103], main():FileCache synced
+Aug 7 17:42:30 RuckusAP stamgr: tac_del_arp:dev=br0 SIOCDARP failed, errno=6
+Aug 7 17:42:36 RuckusAP syslog: pid=1922[1922], doJobEx():worker: action:[cleanup-response], Done.
+Aug 7 17:42:38 RuckusAP ZD-APMgr: IPC_thread rcv ping from TACMON
+Aug 7 17:42:40 RuckusAP syslog: pid=1922[2951], send_alarm_2_email():email server is disabled
+Aug 7 17:42:40 RuckusAP syslog: eventd_to_syslog():Radio [2.4G] of AP[1c:3a:60:34:76:50] is ON
+Aug 7 17:42:40 RuckusAP syslog: pid=1922[2951], send_alarm_2_email():email server is disabled
+Aug 7 17:42:40 RuckusAP syslog: eventd_to_syslog():Radio [5G] of AP[1c:3a:60:34:76:50] is ON
+Aug 7 17:42:42 RuckusAP syslog: pid=1922[2951], send_alarm_2_email():email server is disabled
+Aug 7 17:42:42 RuckusAP syslog: eventd_to_syslog():Radio [2.4G] of AP[1c:3a:60:36:6b:40] is ON
+Aug 7 17:42:42 RuckusAP syslog: pid=1922[2951], send_alarm_2_email():email server is disabled
+Aug 7 17:42:42 RuckusAP syslog: eventd_to_syslog():Radio [5G] of AP[1c:3a:60:36:6b:40] is ON
+Aug 7 17:42:47 RuckusAP APMgr@RuckusAP: wlan0 br_dnat setting is the same as current value, bypass.
+Aug 7 17:42:47 RuckusAP kernel: [ 220.772723] net80211_tac_cfg_sta_set_param(): set station 74:40:be:81:c4:93 vlan_id = 1
+Aug 7 17:42:47 RuckusAP APMgr@RuckusAP: wlan0 br_dnat setting is the same as current value, bypass.
+Aug 7 17:42:47 RuckusAP kernel: [ 221.502023] FWLOG: [241325] RATE: ChainMask 1, peer_mac c4:93, phymode 5, ni_flags 0x00041006, vht_mcs_set 0x0000, ht_mcs_set 0x00ff, legacy_rate_set 0x3aec1
+Aug 7 17:42:48 RuckusAP stainfo[3580]: sta_info_detection_msg_handler(738): DHCP Option 12 (hostname) is not present for 74:40:be:81:c4:93
+Aug 7 17:42:48 RuckusAP stainfo[3580]: sta_info_detection_msg_handler(741): Sending hostname IOCTL as MAC address for 74:40:be:81:c4:93return value:0
+Aug 7 17:42:49 RuckusAP syslog: pid=1922[2951], send_alarm_2_email():email server is disabled
+Aug 7 17:42:49 RuckusAP syslog: eventd_to_syslog():Radio [2.4G] of AP[18:7c:0b:3e:09:20] is ON
+Aug 7 17:42:49 RuckusAP syslog: pid=1922[2951], send_alarm_2_email():email server is disabled
+Aug 7 17:42:49 RuckusAP syslog: eventd_to_syslog():Radio [5G] of AP[18:7c:0b:3e:09:20] is ON
+Aug 7 17:42:51 RuckusAP syslog: pid=1922[2951], send_alarm_2_email():email server is disabled
+Aug 7 17:42:51 RuckusAP syslog: eventd_to_syslog():Radio [2.4G] of AP[18:7c:0b:3e:05:00] is ON
+Aug 7 17:42:51 RuckusAP syslog: pid=1922[2951], send_alarm_2_email():email server is disabled
+Aug 7 17:42:51 RuckusAP syslog: eventd_to_syslog():Radio [5G] of AP[18:7c:0b:3e:05:00] is ON
+Aug 7 17:42:52 RuckusAP syslog: pid=1752[1752], monitor():FileCache synced
+Aug 7 17:42:54 RuckusAP channel-wifi0: set [read] initial channel 6
+Aug 7 17:42:54 RuckusAP channel-wifi1: set [read] initial channel 149
+Aug 7 17:42:58 RuckusAP stamgr: tac_del_arp:dev=br0 SIOCDARP failed, errno=6
+Aug 7 17:42:59 RuckusAP kernel: [ 232.545311] Route found: xmitdev=lo, nexthop=192.168.86.54, saddr=192.168.86.54, pmtu=65535
+Aug 7 17:42:59 RuckusAP kernel: [ 232.545339] Neighbour found: nexthopmac=00:00:00:00:00:00
+Aug 7 17:42:59 RuckusAP syslog: pid=1922[1922], GetClientConfig():wlan service configuration error. not guest wlan. id=1
+Aug 7 17:42:59 RuckusAP syslog: pid=1922[1922], LogoutAdmin():cred lookup fail
+Aug 7 17:42:59 RuckusAP syslog: pid=1922[1922], AuthAdmin():admin login succeed, is_local_auth is 1
+Aug 7 17:42:59 RuckusAP syslog: pid=1922[1922], AuthAdmin():password recovery already enabled, do not need prompt promotion
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, get_ap_list(): ap-list loop 0.
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, get_ap_list(): see [/tmp/unleashed_upgrade/upgrade_ap_list_from_election.xml.ready], ap-list ready!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): is_system_upgrading = 0!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): now = 1691426584!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): update time stamp to each ap node done!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): add all models from election to upgrade ap list done!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): clone ap 18:7c:0b:3e:05:00 attributes from election to upgrade ap list!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): clone ap 18:7c:0b:3e:09:20 attributes from election to upgrade ap list!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): update ap 1c:3a:60:36:6b:40 attributes from election to upgrade ap list!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): clone ap 1c:3a:60:34:76:50 attributes from election to upgrade ap list!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): merge all ap from election to upgrade ap list done!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): ap_node_find = 1!
+Aug 7 17:43:04 RuckusAP last message repeated 3 times
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): remove the ap node of upgrade_ap_list that do not exist in upgrade_ap_list_from_election done!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): remove the ap node that do not approved in ap_list from upgrade_ap_list done!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): special handle the M510 node from upgrade_ap_list done!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): remove the firmware cluster that have no any ap node done!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): remove the vap firmware cluster done!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): merge the election ap list to upgrade ap list done!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): curr_version_str=[200.14.6.1.199]
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): target_version_str = 200.14.6.1.199!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): upgrade_model_name = r510!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): target_version_str = 200.14.6.1.199!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): curr_version_str = 200.14.6.1.199!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): firmware_file open failure
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): imghdr.version = !
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): imghdr.product = !
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): version_match = 0!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): upgrade_state = !
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): active_ver = 200.14.6.1.199!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): backup_ver = 200.7.10.102.64!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): target_version_str = 200.14.6.1.199!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): upgrade_state = upgrade-state-no-info!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): active_ver = 200.14.6.1.199!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): backup_ver = 200.7.10.102.64!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): target_version_str = 200.14.6.1.199!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): upgrade_state = upgrade-state-no-info!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): active_ver = 200.14.6.1.199!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): backup_ver = 200.7.10.102.64!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): target_version_str = 200.14.6.1.199!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): upgrade_state = upgrade-state-no-info!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): active_ver = 200.14.6.1.199!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): backup_ver = 200.7.10.102.64!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): target_version_str = 200.14.6.1.199!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): update the version field of upgrade ap list node done!
+Aug 7 17:43:04 RuckusAP syslog: upgrade_debug: pid=4455, insert_field_to_upgrade_ap_list(): upgrade ap list all done!
+Aug 7 17:43:04 RuckusAP stamgr: tac_del_arp:dev=br0 SIOCDARP failed, errno=6
+Aug 7 17:43:06 RuckusAP syslog: pid=1922[1922], doJobEx():worker: action:[cleanup-response], Done.
+Aug 7 17:43:08 RuckusAP ZD-APMgr: IPC_thread rcv ping from TACMON
+Aug 7 17:43:09 RuckusAP qm_dpi[948]: qm_dpi_send_to_stainfod: 121: ERROR: socket creation
+Aug 7 17:43:09 RuckusAP qm_dpi[948]: qm_dpi_send_to_stainfod: 124: 111 (Connection refused) ERROR : sending to stainfod socket error : sock_id=0
+Aug 7 17:43:09 RuckusAP channel-wifi0: MTBC changed to 100 minutes
+Aug 7 17:43:09 RuckusAP channel-wifi1: channel 165 now BLOCKED
+Aug 7 17:43:09 RuckusAP channel-wifi1: MTBC changed to 100 minutes
+Aug 7 17:43:09 RuckusAP kernel: [ 243.421064] v54cf: v54cf_open: inode=decfdc38, filp=d8b9c000
+Aug 7 17:43:09 RuckusAP kernel: [ 243.421143] v54cf: v54cf_open: inode=decff8b8, filp=db90f180
+Aug 7 17:43:11 RuckusAP stamgr: tac_del_arp:dev=br0 SIOCDARP failed, errno=6
